@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 008d61129f81c4b96b67b920bb4c60be
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: _template
+    11400002: _superAsset
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 4426ef1bd8d94d242b03d3dc2d544b32, type: 3}
+  missingFiles: []
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 0

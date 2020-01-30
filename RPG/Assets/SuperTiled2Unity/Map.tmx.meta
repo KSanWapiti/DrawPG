@@ -1,0 +1,67 @@
+fileFormatVersion: 2
+guid: 6ed71b8f32b2045b0ba7bacead3e16f2
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/Map
+    100002: _MapPrfab/Map/Grid
+    100004: _MapPrfab/Map/Grid/Collision_Red_Box
+    100006: _MapPrfab/Map/Grid/Grass
+    100008: _MapPrfab/Map/Grid/Temple
+    100010: _MapPrfab/Map/Grid/Tile Layer 1
+    100012: _MapPrfab/Map/Grid/Tile Layer 1/Collision_Default
+    100014: _MapPrfab/Map/Grid/Trees
+    400000: _MapPrfab/Map/Transform
+    400002: _MapPrfab/Map/Grid/Transform
+    400004: _MapPrfab/Map/Grid/Collision_Red_Box/Transform
+    400006: _MapPrfab/Map/Grid/Grass/Transform
+    400008: _MapPrfab/Map/Grid/Temple/Transform
+    400010: _MapPrfab/Map/Grid/Tile Layer 1/Transform
+    400012: _MapPrfab/Map/Grid/Tile Layer 1/Collision_Default/Transform
+    400014: _MapPrfab/Map/Grid/Trees/Transform
+    6000000: _MapPrfab/Map/Grid/Tile Layer 1/Collision_Default/PolygonCollider2D
+    11400000: _MapPrfab/Map/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _superAsset
+    11400004: _MapPrfab/Map/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400006: _MapPrfab/Map/Grid/Collision_Red_Box/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400008: _MapPrfab/Map/Grid/Collision_Red_Box/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400010: _MapPrfab/Map/Grid/Grass/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400012: _MapPrfab/Map/Grid/Grass/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/Map/Grid/Temple/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400016: _MapPrfab/Map/Grid/Temple/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400018: _MapPrfab/Map/Grid/Tile Layer 1/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400020: _MapPrfab/Map/Grid/Tile Layer 1/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400022: _MapPrfab/Map/Grid/Tile Layer 1/Collision_Default/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400024: _MapPrfab/Map/Grid/Trees/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400026: _MapPrfab/Map/Grid/Trees/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/Map/Grid/Grid
+    3664157343022684176: _MapPrfab/Map/Grid/Collision_Red_Box/TilemapRenderer
+    3664157343022684178: _MapPrfab/Map/Grid/Grass/TilemapRenderer
+    3664157343022684180: _MapPrfab/Map/Grid/Temple/TilemapRenderer
+    3664157343022684182: _MapPrfab/Map/Grid/Tile Layer 1/TilemapRenderer
+    3664157343022684184: _MapPrfab/Map/Grid/Trees/TilemapRenderer
+    8195094279510102542: _MapPrfab/Map/Grid/Collision_Red_Box/Tilemap
+    8195094279510102544: _MapPrfab/Map/Grid/Grass/Tilemap
+    8195094279510102546: _MapPrfab/Map/Grid/Temple/Tilemap
+    8195094279510102548: _MapPrfab/Map/Grid/Tile Layer 1/Tilemap
+    8195094279510102550: _MapPrfab/Map/Grid/Trees/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []
