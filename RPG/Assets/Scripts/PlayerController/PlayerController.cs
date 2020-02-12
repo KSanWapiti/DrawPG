@@ -26,10 +26,16 @@ public class PlayerController : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+
+    private SpellController spellcontroller;
+    public GameObject fireball;
+
     
     // Start is called before the first frame update
     void Start()
     {
+        spellcontroller = FindObjectOfType<SpellController>();
+
         if (!playerExists)
         {
             playerExists = true;
@@ -66,6 +72,8 @@ public class PlayerController : MonoBehaviour
             //attackState = false;
         }
 
+        // Move Controller
+
         if(Mathf.Abs(Input.GetAxisRaw("Horizontal")) >0.5f)
         {
             //transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * walkSpeed * Time.deltaTime,0f,0f));
@@ -94,25 +102,9 @@ public class PlayerController : MonoBehaviour
             myRigidBody.velocity = new Vector2(myRigidBody.velocity.x , 0f);
         }
 
-        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("Moving", moving);
-        anim.SetFloat("PositionX", lastMove.x);
-        anim.SetFloat("PositionY", lastMove.y);
-
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
         {
-            //attackState = true;
-            attackSpeedCounter = attackSpeed;
-            anim.SetBool("Attacking", true);
-            
-            
-
-        }
-
-        if( Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs(Input.GetAxisRaw("Vertical")) > 0.5f)
-        {
-            if( walkSpeed == walkSpeedDiag)
+            if (walkSpeed == walkSpeedDiag)
             {
 
             }
@@ -124,8 +116,53 @@ public class PlayerController : MonoBehaviour
 
         if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) < 0.5f || Mathf.Abs(Input.GetAxisRaw("Vertical")) < 0.5f)
         {
-            walkSpeed = walkSpeedDiag * (1/diviseurDiagMouvement);
+            walkSpeed = walkSpeedDiag * (1 / diviseurDiagMouvement);
         }
+
+        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+        anim.SetBool("Moving", moving);
+        anim.SetFloat("PositionX", lastMove.x);
+        anim.SetFloat("PositionY", lastMove.y);
+
+
+        // Attack Controller
+        
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            //attackState = true;
+            attackSpeedCounter = attackSpeed;
+            anim.SetBool("Attacking", true);
+            
+        }
+
+        if (Input.GetKeyUp(KeyCode.K))
+        {
+            float z = 0f;
+
+            if (lastMove.x > 0.5f)
+            {
+                z = 180f;
+            }
+
+            if (lastMove.x < - 0.5f)
+            {
+                z = 0f;
+            }
+
+            if (Mathf.Abs(lastMove.y) > 0.5f)
+            {
+                z = lastMove.y * (-90f);
+            }
+
+            Vector3 EulerRotation = new Vector3(0f, 0f, z);
+
+            
+            Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation ) );
+            spellcontroller.castSpell(z);
+        }
+
+        
 
         if (hurtEffectTimeCounter > 0.66f * hurtEffectTime )
         {

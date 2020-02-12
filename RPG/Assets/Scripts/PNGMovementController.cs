@@ -19,7 +19,10 @@ public class PNGMovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerBody.velocity = new Vector2(5, 0);
-        animator.SetBool("Mobing", true);
+
+        playerBody.velocity = new Vector2(moveSpeed, 0);
+        animator.SetBool("Moving", false);
+        animator.SetFloat("PositionX", 0f);
+        animator.SetFloat("PositionY", -1f);
     }
 }

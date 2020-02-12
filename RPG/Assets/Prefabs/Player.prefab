@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5676807727806762133}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,8 +101,9 @@ MonoBehaviour:
   walkSpeed: 10
   diviseurDiagMouvement: 0.75
   lastMove: {x: 0, y: 0}
-  attackSpeed: 0.2
+  attackSpeed: 0.05
   hurtEffectTime: 0.3
+  fireball: {fileID: 335124177209083865, guid: 72a32497be6c143f597b6c3d82e52961, type: 3}
 --- !u!114 &107079652585122352
 MonoBehaviour:
   m_ObjectHideFlags: 0
