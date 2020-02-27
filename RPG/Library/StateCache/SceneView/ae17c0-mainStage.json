@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream:RPG/Library/StateCache/SceneView/ae17c0-mainStage.json
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-232.52902221679688,"y":100.2494125366211,"z":-5.011106491088867},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":516.9442138671875,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":28.096351623535158,"y":-11.843562126159668,"z":1.1537011861801148},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":17.97629737854004,"orthographic":true}
+>>>>>>> Stashed changes:RPG/Library/StateCache/SceneView/c48f11-mainStage.json
