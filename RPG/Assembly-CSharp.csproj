@@ -144,6 +144,7 @@
     <Compile Include="Assets\Scripts\PlayerStartPoint.cs" />
     <Compile Include="Assets\Scripts\PNGDialogue.cs" />
     <Compile Include="Assets\Scripts\PNGMovementController.cs" />
+    <Compile Include="Assets\Scripts\pngpngcontroller.cs" />
     <Compile Include="Assets\Scripts\SpellController.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\Packs\roguelike-pack\License.txt" />
