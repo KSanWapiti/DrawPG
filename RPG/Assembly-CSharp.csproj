@@ -121,7 +121,12 @@
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Antoine_movement.cs" />
+=======
+    <Compile Include="Assets\JiaweiMouvement.cs" />
+    <Compile Include="Assets\Scripts\Antoinetest.cs" />
+>>>>>>> Jiawei
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ChangeSprite.cs" />
     <Compile Include="Assets\Scripts\damageDisplay.cs" />
