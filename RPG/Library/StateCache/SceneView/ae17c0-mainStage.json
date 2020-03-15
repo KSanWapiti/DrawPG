@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":25.135982513427736,"y":-13.314434051513672,"z":0.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":2.3566715717315676,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":24.731321334838868,"y":-4.0525736808776859,"z":-0.10950464010238648},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":18.057268142700197,"orthographic":true}
+>>>>>>> Jichi
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":14.078868865966797,"y":-8.00914192199707,"z":-0.0859375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":24.432008743286134,"orthographic":true}
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream:RPG/Library/StateCache/SceneView/ae17c0-mainStage.json
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-232.52902221679688,"y":100.2494125366211,"z":-5.011106491088867},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":516.9442138671875,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":28.096351623535158,"y":-11.843562126159668,"z":1.1537011861801148},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":17.97629737854004,"orthographic":true}
+>>>>>>> Stashed changes:RPG/Library/StateCache/SceneView/c48f11-mainStage.json
+>>>>>>> Kevin
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":27.40994644165039,"y":-2.1298623085021974,"z":0.3450520932674408},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":22.102663040161134,"orthographic":true}
+>>>>>>> Jiawei

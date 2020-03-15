@@ -14,15 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 44
     width: 1440
     height: 774
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 8
+    y: 51
+    width: 1350
+    height: 669
+=======
+    x: 7.3333335
+    y: 50
+    width: 1265.3334
+    height: 622.6667
+>>>>>>> Jiawei
+>>>>>>> Jichi
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
+<<<<<<< HEAD
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -48,7 +65,34 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
   controlID: 66
+=======
+  m_Maximized: 0
+--- !u!114 &2
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 9}
+  m_MinSize: {x: 950, y: 524}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+>>>>>>> Jichi
 --- !u!114 &3
+>>>>>>> Jichi
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,11 +109,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1148
     y: 0
+<<<<<<< HEAD
     width: 292
     height: 724
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 14}
+=======
+    width: 770
+    height: 569
+  m_MinSize: {x: 100, y: 125}
+  m_MaxSize: {x: 4000, y: 4025}
+  m_ActualView: {fileID: 15}
+>>>>>>> Jichi
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -91,6 +143,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 284
     height: 439
   m_MinSize: {x: 202, y: 224}
@@ -100,7 +153,31 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
+=======
+    width: 770
+    height: 569
+  m_MinSize: {x: 100, y: 125}
+  m_MaxSize: {x: 4000, y: 4025}
+  vertical: 0
+  controlID: 4666
+>>>>>>> Jichi
 --- !u!114 &5
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    x: 8
+    y: 51
+    width: 1904
+    height: 981
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,6 +186,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -127,7 +205,351 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1350
+    height: 619
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+=======
+    width: 1266
+    height: 573
+  m_MinSize: {x: 685, y: 498}
+  m_MaxSize: {x: 14006, y: 14048}
+>>>>>>> Jiawei
+  vertical: 0
+  controlID: 112
+--- !u!114 &3
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    width: 1920
+    height: 947
+  m_MinSize: {x: 581, y: 474}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 74
+>>>>>>> Jichi
 --- !u!114 &6
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    width: 1904
+    height: 931
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
+  vertical: 0
+  controlID: 85
+--- !u!114 &3
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Jichi
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1073
+    y: 0
+<<<<<<< HEAD
+    width: 1440
+    height: 774
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &7
+=======
+    width: 277
+    height: 619
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 1369
+    y: 0
+    width: 551
+    height: 947
+>>>>>>> Jichi
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 19}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 989
+=======
+    x: 987
+>>>>>>> Jiawei
+    y: 0
+    width: 279
+    height: 573
+  m_MinSize: {x: 279, y: 74}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 14}
+>>>>>>> Jiawei
+=======
+=======
+=======
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+    x: 1518
+    y: 0
+    width: 386
+    height: 931
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 14}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+>>>>>>> Jichi
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Jichi
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+<<<<<<< HEAD
+    width: 1440
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &8
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 265
+    height: 345
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+=======
+    width: 245
+    height: 299
+<<<<<<< HEAD
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Jiawei
+  m_ActualView: {fileID: 15}
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    width: 401
+    height: 574
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    width: 376
+    height: 563
+=======
+>>>>>>> Jiawei
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 15}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+>>>>>>> Jichi
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Jichi
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+    y: 754
+    width: 1440
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 345
+    width: 1073
+=======
+    y: 299
+<<<<<<< HEAD
+    width: 989
+>>>>>>> Jiawei
+=======
+    width: 987
+>>>>>>> Jiawei
+    height: 274
+=======
+    y: 574
+    width: 1369
+    height: 373
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    y: 574
+    width: 1369
+    height: 373
+=======
+    y: 563
+    width: 1518
+    height: 368
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    y: 563
+    width: 1518
+    height: 368
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    y: 563
+    width: 1518
+    height: 368
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+>>>>>>> Jichi
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,18 +562,74 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+<<<<<<< HEAD
+  - {fileID: 10}
+  - {fileID: 5}
+=======
   - {fileID: 7}
   - {fileID: 2}
   - {fileID: 8}
+>>>>>>> Jichi
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
-    height: 774
+<<<<<<< HEAD
+    width: 1148
+    height: 724
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 67
+--- !u!114 &10
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1350
+    height: 669
+=======
+    width: 1266
+    height: 623
+>>>>>>> Jiawei
   m_MinSize: {x: 950, y: 300}
+=======
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 524}
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 524}
+=======
+    width: 1904
+    height: 981
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    width: 1904
+    height: 981
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    width: 1904
+    height: 981
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
+>>>>>>> Jichi
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
+>>>>>>> Jichi
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,17 +641,63 @@ MonoBehaviour:
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+=======
   m_Children: []
+>>>>>>> Jichi
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
+<<<<<<< HEAD
+    width: 1148
+    height: 439
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 68
+--- !u!114 &11
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1350
+=======
+    width: 1920
+>>>>>>> Jichi
+=======
+    width: 1266
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    width: 1920
+=======
+    width: 1904
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    width: 1904
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    width: 1904
+>>>>>>> Stashed changes
+>>>>>>> Jichi
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
 --- !u!114 &8
+>>>>>>> Jichi
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,77 +712,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
-    y: 754
-    width: 1440
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1148
-    height: 724
-  m_MinSize: {x: 406, y: 498}
-  m_MaxSize: {x: 10002, y: 14048}
-  vertical: 1
-  controlID: 67
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1148
-    height: 439
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
-  vertical: 0
-  controlID: 68
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
+<<<<<<< HEAD
     x: 284
     y: 0
     width: 864
@@ -273,6 +727,51 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+=======
+    x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 649
+    width: 1350
+=======
+    y: 977
+    width: 1920
+>>>>>>> Jichi
+=======
+    y: 603
+    width: 1266
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    y: 977
+    width: 1920
+=======
+    y: 961
+    width: 1904
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    y: 961
+    width: 1904
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    y: 961
+    width: 1904
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+>>>>>>> Jichi
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,6 +780,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -298,7 +798,78 @@ MonoBehaviour:
     width: 973
     height: 501
   m_PersistentViewDataDictionary: {fileID: 0}
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1073
+    height: 619
+=======
+    width: 989
+=======
+    width: 987
+>>>>>>> Jiawei
+    height: 573
+>>>>>>> Jiawei
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 50
+--- !u!114 &10
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    width: 1369
+    height: 947
+  m_MinSize: {x: 304, y: 474}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 107
+>>>>>>> Jichi
 --- !u!114 &13
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    width: 1518
+    height: 931
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
+  vertical: 1
+  controlID: 86
+--- !u!114 &10
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -307,6 +878,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -432,6 +1004,523 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1073
+    height: 345
+=======
+    width: 989
+=======
+    width: 987
+>>>>>>> Jiawei
+    height: 299
+>>>>>>> Jiawei
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 51
+--- !u!114 &11
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    width: 1369
+    height: 574
+  m_MinSize: {x: 304, y: 200}
+  m_MaxSize: {x: 8004, y: 4024}
+  vertical: 0
+  controlID: 88
+>>>>>>> Jichi
+--- !u!114 &14
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    width: 1518
+    height: 563
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
+  vertical: 0
+  controlID: 87
+--- !u!114 &11
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< HEAD
+    x: 1148
+    y: 75
+    width: 290
+    height: 704
+  m_PersistentViewDataDictionary: {fileID: 0}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 265
+=======
+    x: 245
+>>>>>>> Jiawei
+    y: 0
+    width: 742
+    height: 299
+  m_MinSize: {x: 204, y: 224}
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 401
+    y: 0
+    width: 968
+    height: 574
+  m_MinSize: {x: 104, y: 124}
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    x: 376
+    y: 0
+    width: 1142
+    height: 563
+  m_MinSize: {x: 204, y: 224}
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 252.66667
+    y: 80
+    width: 738
+    height: 279
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 8
+    y: 426
+    width: 1071
+=======
+    x: 7.3333335
+    y: 379.33334
+<<<<<<< HEAD
+    width: 987
+>>>>>>> Jiawei
+=======
+    width: 985
+>>>>>>> Jiawei
+    height: 254
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 0
+    y: 647
+    width: 1367
+    height: 353
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    x: 8
+    y: 644
+    width: 1516
+    height: 348
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - Assets
+=======
+    - Assets/Art
+>>>>>>> Jiawei
+=======
+    - Assets/Scripts/PlayerController
+>>>>>>> Jiawei
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts/PlayerController
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Jiawei\Desktop\Projet Info\RPG
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 79}
+<<<<<<< HEAD
+    m_SelectedIDs: 680b0000
+    m_LastClickedID: 2920
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    - Assets/Art
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Art
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\makar\Documents\GitHub\DrawPG\RPG
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3e100000
+    m_LastClickedID: 4158
+>>>>>>> Jichi
+    m_ExpandedIDs: 00000000680b0000de100000161100002a1200003a1400000e1500006e150000a61500007c230000dc23000000ca9a3b
+=======
+<<<<<<< HEAD
+    m_SelectedIDs: 42100000
+    m_LastClickedID: 4162
+    m_ExpandedIDs: 000000006c0b0000e21000001a1100002e1200003e1400001215000072150000aa15000080230000e023000000ca9a3b
+>>>>>>> Jiawei
+=======
+    - Assets/Scenes
+=======
+=======
+>>>>>>> Stashed changes
+    - Assets
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Makarije\Documents\GitHub\DrawPGkraken\RPG
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    scrollPos: {x: 0, y: 357}
+    m_SelectedIDs: 0a130000
+    m_LastClickedID: 4874
+    m_ExpandedIDs: 000000006e0b0000e61000001e11000032120000421400001815000078150000b015000086230000e823000000ca9a3b
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 487f0000
+    m_LastClickedID: 32584
+    m_ExpandedIDs: 00000000ec630000f2630000006400001064000022640000286400002a640000346400003c640000487f000000ca9a3b
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+    scrollPos: {x: 0, y: 499}
+    m_SelectedIDs: a82e0000
+    m_LastClickedID: 11944
+    m_ExpandedIDs: 000000009e280000142e00004c2e0000622f00007231000046320000a6320000de320000b44000001441000000ca9a3b
+>>>>>>> Jiawei
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000006c0b0000e21000001a1100002e1200003e1400001215000072150000aa15000080230000e0230000
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_ExpandedIDs: 00000000680b0000de100000161100002a1200003a1400000e1500006e150000a61500007c230000dc230000
+=======
+    m_ExpandedIDs: 000000006e0b0000e61000001e11000032120000421400001815000078150000b015000086230000e8230000
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_ExpandedIDs: 00000000ec630000f2630000006400001064000022640000286400002a640000346400003c640000487f0000
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_ExpandedIDs: 00000000ec630000f2630000006400001064000022640000286400002a640000346400003c640000487f0000
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+    m_ExpandedIDs: 000000009e280000142e00004c2e0000622f00007231000046320000a6320000de320000b440000014410000
+>>>>>>> Jiawei
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+=======
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000b2230000840c0000
+>>>>>>> Jichi
+=======
+    m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
+    m_ExpandedInstanceIDs: c6230000b6230000
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000b2230000840c0000
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+    m_ExpandedInstanceIDs: c6230000b6230000ca580000ea400000
+>>>>>>> Jiawei
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 115
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -453,17 +1542,71 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1148
-    y: 75
-    width: 290
-    height: 704
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1081
+    y: 81
+    width: 275
+    height: 599
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 1369
+    y: 73
+    width: 549
+    height: 927
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+    x: 996.6667
+=======
+    x: 994.6667
+>>>>>>> Jiawei
+    y: 80
+    width: 275
+    height: 553
+>>>>>>> Jiawei
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    x: 1526
+    y: 81
+    width: 384
+    height: 911
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
   m_PersistentViewDataDictionary: {fileID: 0}
+>>>>>>> Jichi
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
+<<<<<<< HEAD
     m_CachedPref: 160
+=======
+    m_CachedPref: -198
+>>>>>>> Jichi
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -488,14 +1631,60 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 8
+    y: 81
+    width: 263
+    height: 325
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
     x: 0
+<<<<<<< HEAD
     y: 75
     width: 282
     height: 419
+=======
+    y: 73
+    width: 399
+    height: 554
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    x: 8
+    y: 81
+    width: 374
+    height: 543
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+>>>>>>> Jichi
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: dcfbffff
       m_LastClickedID: -1060
       m_ExpandedIDs: defbffff
@@ -503,25 +1692,101 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: 
         m_OriginalName: 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+=======
+    x: 7.3333335
+    y: 80
+    width: 243
+    height: 279
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+<<<<<<< HEAD
+      scrollPos: {x: 0, y: 106}
+      m_SelectedIDs: 3ef3ffff
+      m_LastClickedID: -3266
+>>>>>>> Jiawei
+      m_ExpandedIDs: defbffff
+=======
+      m_SelectedIDs: d0afffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 14d1ffff98d2ffffa6d2ffff84dafffff0daffff8ee3ffff92e4ffff32edffff80eeffffc6f4ffffccf4ffffdefbffff102600008c8c0000
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      m_SelectedIDs: d0afffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 14d1ffff98d2ffffa6d2ffff84dafffff0daffff8ee3ffff92e4ffff32edffff80eeffffc6f4ffffccf4ffffdefbffff102600008c8c0000
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cf1ffff84f1ffff34f3ffff40f3ffffdefbffff
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e664fffffe64ffffa866ffffb466ffff326fffff
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ca64ffffe264ffff9266ffff9e66ffff326fffff
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 9cb60000
+      m_LastClickedID: 46748
+      m_ExpandedIDs: b6d6ffffc8d6ffff12d7ffff1ed7ffff72d8ffff84d8ffff38daffff48daffffe6f9ffff14b300002ab60000
+>>>>>>> Jiawei
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: HealthBar
+        m_OriginalName: HealthBar
+>>>>>>> Jichi
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 0
+=======
+        m_UserData: 46748
+>>>>>>> Jichi
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
+<<<<<<< HEAD
         m_ClientGUIView: {fileID: 0}
+=======
+        m_ClientGUIView: {fileID: 4}
+>>>>>>> Jichi
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
   m_WindowGUID: 8f41a3b98e14c44859e2b629fd19e339
+=======
+  m_WindowGUID: b7c88da2785d0384db89b8d009300fd1
+>>>>>>> Jichi
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -538,24 +1803,133 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 0}
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 284
     y: 75
     width: 860
     height: 419
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: c48f11b074a8f420a975ac2c7ede534f
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 273
+    y: 81
+    width: 804
+    height: 325
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 401
+    y: 73
+    width: 964
+    height: 554
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+    x: 252.66667
+    y: 80
+    width: 738
+    height: 279
+>>>>>>> Jiawei
+=======
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+    x: 384
+    y: 81
+    width: 1138
+    height: 543
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_WindowGUID: 944dacfb1bb8e0d4d8406daf374b593b
+>>>>>>> Jichi
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 860, y: 404, z: 0}
     speed: 2
     m_Value: {x: 860, y: 404, z: 0}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: -232.52902, y: 100.24941, z: -5.0111065}
+    speed: 2
+    m_Value: {x: -232.52902, y: 100.24941, z: -5.0111065}
+=======
+    m_Target: {x: 24.731321, y: -4.0525737, z: -0.10950464}
+    speed: 2
+    m_Value: {x: 24.731321, y: -4.0525737, z: -0.10950464}
+>>>>>>> Jichi
+=======
+    m_Target: {x: 14.078869, y: -8.009142, z: -0.0859375}
+    speed: 2
+    m_Value: {x: 14.078869, y: -8.009142, z: -0.0859375}
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_Target: {x: 24.731321, y: -4.0525737, z: -0.10950464}
+    speed: 2
+    m_Value: {x: 24.731321, y: -4.0525737, z: -0.10950464}
+=======
+    m_Target: {x: 23.312712, y: -14.431817, z: -0.24980749}
+    speed: 2
+    m_Value: {x: 23.312712, y: -14.431817, z: -0.24980749}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_Target: {x: -2.9871557, y: -0.2993982, z: -0.13065867}
+    speed: 2
+    m_Value: {x: -2.9871557, y: -0.2993982, z: -0.13065867}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+    m_Target: {x: 27.409946, y: -2.1298623, z: 0.3450521}
+    speed: 2
+    m_Value: {x: 27.409946, y: -2.1298623, z: 0.3450521}
+>>>>>>> Jiawei
+>>>>>>> Jichi
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,9 +1961,63 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 3135.549
     speed: 2
     m_Value: 3135.549
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: 516.9442
+    speed: 2
+    m_Value: 516.9442
+=======
+    m_Target: 18.057268
+    speed: 2
+    m_Value: 18.057268
+>>>>>>> Jichi
+=======
+    m_Target: 24.432009
+    speed: 2
+    m_Value: 24.432009
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+    m_Target: 18.057268
+    speed: 2
+    m_Value: 18.057268
+=======
+    m_Target: 35.49966
+    speed: 2
+    m_Value: 35.49966
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_Target: 23.0786
+    speed: 2
+    m_Value: 23.0786
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+    m_Target: 22.102663
+    speed: 2
+    m_Value: 22.102663
+>>>>>>> Jiawei
+>>>>>>> Jichi
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -622,10 +2050,66 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 284
     y: 75
     width: 860
     height: 419
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 273
+    y: 81
+    width: 804
+    height: 325
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    x: 401
+    y: 73
+    width: 964
+    height: 554
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+    x: 252.66667
+    y: 80
+    width: 738
+    height: 279
+>>>>>>> Jiawei
+=======
+=======
+    x: 384
+    y: 81
+    width: 1138
+    height: 543
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+>>>>>>> Jichi
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -637,10 +2121,71 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -430
     m_HBaseRangeMax: 430
     m_VBaseRangeMin: -201
     m_VBaseRangeMax: 201
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_HBaseRangeMin: -402
+    m_HBaseRangeMax: 402
+    m_VBaseRangeMin: -154
+    m_VBaseRangeMax: 154
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+    m_HBaseRangeMin: -482
+    m_HBaseRangeMax: 482
+    m_VBaseRangeMin: -268.5
+    m_VBaseRangeMax: 268.5
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+    m_HBaseRangeMin: -370
+    m_HBaseRangeMax: 370
+=======
+    m_HBaseRangeMin: -369
+    m_HBaseRangeMax: 369
+>>>>>>> Jiawei
+    m_VBaseRangeMin: -131
+    m_VBaseRangeMax: 131
+>>>>>>> Jiawei
+=======
+=======
+    m_HBaseRangeMin: -569
+    m_HBaseRangeMax: 569
+    m_VBaseRangeMin: -263
+    m_VBaseRangeMax: 263
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+    m_HBaseRangeMin: -766
+    m_HBaseRangeMax: 766
+    m_VBaseRangeMin: -386.5
+    m_VBaseRangeMax: 386.5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+>>>>>>> Jichi
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -649,7 +2194,11 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
+<<<<<<< HEAD
     m_EnableMouseInput: 0
+=======
+    m_EnableMouseInput: 1
+>>>>>>> Jichi
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -658,28 +2207,183 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 860
       height: 402
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 430, y: 201}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      width: 804
+      height: 308
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 402, y: 154}
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+      width: 964
+      height: 537
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 482, y: 268.5}
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+      width: 740
+      height: 262
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 370, y: 131}
+>>>>>>> Jiawei
+=======
+=======
+      width: 1138
+      height: 526
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 569, y: 263}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+      width: 1532
+      height: 773
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 766, y: 386.5}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+      width: 738
+      height: 262
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 369, y: 131}
+>>>>>>> Jiawei
+>>>>>>> Jichi
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -430
       y: -201
       width: 860
       height: 402
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      x: -402
+      y: -154
+      width: 804
+      height: 308
+=======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
+>>>>>>> Jichi
+      x: -482
+      y: -268.5
+      width: 964
+      height: 537
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+      x: -370
+=======
+      x: -369
+>>>>>>> Jiawei
+      y: -131
+      width: 738
+      height: 262
+>>>>>>> Jiawei
+=======
+=======
+      x: -569
+      y: -263
+      width: 1138
+      height: 526
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+>>>>>>> Jichi
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1720, y: 838}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LastWindowPixelSize: {x: 804, y: 325}
+=======
+  m_LastWindowPixelSize: {x: 964, y: 554}
+>>>>>>> Jichi
+=======
+  m_LastWindowPixelSize: {x: 1110, y: 418.5}
+>>>>>>> Jiawei
+=======
+<<<<<<< Updated upstream
+  m_LastWindowPixelSize: {x: 964, y: 554}
+=======
+  m_LastWindowPixelSize: {x: 1138, y: 543}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+=======
+>>>>>>> Stashed changes
+      x: -766
+      y: -386.5
+      width: 1532
+      height: 773
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 1
+  m_LastWindowPixelSize: {x: 1532, y: 790}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> Jichi
+=======
+  m_LastWindowPixelSize: {x: 1107, y: 418.5}
+>>>>>>> Jiawei
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+>>>>>>> Jichi
   m_XRRenderMode: 0
 --- !u!114 &18
 MonoBehaviour:
