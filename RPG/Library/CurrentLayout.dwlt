@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MaxSize: {x: 14006, y: 14048}
 >>>>>>> Jiawei
   vertical: 0
-  controlID: 55
+  controlID: 112
 --- !u!114 &3
 =======
 =======
@@ -217,6 +217,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1073
     y: 0
     width: 277
@@ -245,8 +246,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 989
+=======
+    x: 987
+>>>>>>> Jiawei
     y: 0
-    width: 277
+    width: 279
     height: 573
   m_MinSize: {x: 279, y: 74}
   m_MaxSize: {x: 4004, y: 4024}
@@ -308,6 +312,7 @@ MonoBehaviour:
 =======
     width: 245
     height: 299
+<<<<<<< HEAD
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> Jiawei
@@ -339,6 +344,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
     width: 376
     height: 563
+=======
+>>>>>>> Jiawei
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
@@ -377,7 +384,11 @@ MonoBehaviour:
     width: 1073
 =======
     y: 299
+<<<<<<< HEAD
     width: 989
+>>>>>>> Jiawei
+=======
+    width: 987
 >>>>>>> Jiawei
     height: 274
 =======
@@ -618,16 +629,20 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1073
     height: 619
 =======
     width: 989
+=======
+    width: 987
+>>>>>>> Jiawei
     height: 573
 >>>>>>> Jiawei
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 56
+  controlID: 50
 --- !u!114 &10
 =======
 =======
@@ -692,16 +707,20 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1073
     height: 345
 =======
     width: 989
+=======
+    width: 987
+>>>>>>> Jiawei
     height: 299
 >>>>>>> Jiawei
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 57
+  controlID: 51
 --- !u!114 &11
 =======
 =======
@@ -767,7 +786,7 @@ MonoBehaviour:
     x: 245
 >>>>>>> Jiawei
     y: 0
-    width: 744
+    width: 742
     height: 299
   m_MinSize: {x: 204, y: 224}
 =======
@@ -809,13 +828,13 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 >>>>>>> Jichi
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -837,10 +856,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 252.66667
+    y: 80
+    width: 738
+    height: 279
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -872,7 +891,11 @@ MonoBehaviour:
 =======
     x: 7.3333335
     y: 379.33334
+<<<<<<< HEAD
     width: 987
+>>>>>>> Jiawei
+=======
+    width: 985
 >>>>>>> Jiawei
     height: 254
 =======
@@ -927,19 +950,24 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Art
 >>>>>>> Jiawei
+=======
+    - Assets/Scripts/PlayerController
+>>>>>>> Jiawei
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art
+  - Assets/Scripts/PlayerController
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jiawei\Desktop\Projet Info\RPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
 <<<<<<< HEAD
     m_SelectedIDs: 680b0000
@@ -1014,6 +1042,12 @@ MonoBehaviour:
 =======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+    scrollPos: {x: 0, y: 499}
+    m_SelectedIDs: a82e0000
+    m_LastClickedID: 11944
+    m_ExpandedIDs: 000000009e280000142e00004c2e0000622f00007231000046320000a6320000de320000b44000001441000000ca9a3b
+>>>>>>> Jiawei
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1042,6 +1076,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000006c0b0000e21000001a1100002e1200003e1400001215000072150000aa15000080230000e0230000
 =======
 <<<<<<< Updated upstream
@@ -1064,6 +1099,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000ec630000f2630000006400001064000022640000286400002a640000346400003c640000487f0000
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+    m_ExpandedIDs: 000000009e280000142e00004c2e0000622f00007231000046320000a6320000de320000b440000014410000
+>>>>>>> Jiawei
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1101,6 +1139,7 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c6230000b6230000
 >>>>>>> Jiawei
 =======
@@ -1128,6 +1167,9 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+    m_ExpandedInstanceIDs: c6230000b6230000ca580000ea400000
+>>>>>>> Jiawei
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1143,7 +1185,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1178,6 +1220,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1081
     y: 81
     width: 275
@@ -1202,8 +1245,11 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
     x: 996.6667
+=======
+    x: 994.6667
+>>>>>>> Jiawei
     y: 80
-    width: 273
+    width: 275
     height: 553
 >>>>>>> Jiawei
 =======
@@ -1230,7 +1276,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -198
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -1314,6 +1360,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 106}
       m_SelectedIDs: 3ef3ffff
       m_LastClickedID: -3266
@@ -1353,22 +1400,28 @@ MonoBehaviour:
       m_ExpandedIDs: ca64ffffe264ffff9266ffff9e66ffff326fffff
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 9cb60000
+      m_LastClickedID: 46748
+      m_ExpandedIDs: b6d6ffffc8d6ffff12d7ffff1ed7ffff72d8ffff84d8ffff38daffff48daffffe6f9ffff14b300002ab60000
+>>>>>>> Jiawei
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: HealthBar
+        m_OriginalName: HealthBar
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 46748
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1425,7 +1478,7 @@ MonoBehaviour:
 =======
     x: 252.66667
     y: 80
-    width: 740
+    width: 738
     height: 279
 >>>>>>> Jiawei
 =======
@@ -1453,6 +1506,7 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1498,6 +1552,11 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+    m_Target: {x: 27.409946, y: -2.1298623, z: 0.3450521}
+    speed: 2
+    m_Value: {x: 27.409946, y: -2.1298623, z: 0.3450521}
+>>>>>>> Jiawei
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1529,6 +1588,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1574,6 +1634,11 @@ MonoBehaviour:
     m_Value: 10
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+    m_Target: 22.102663
+    speed: 2
+    m_Value: 22.102663
+>>>>>>> Jiawei
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1634,7 +1699,7 @@ MonoBehaviour:
 =======
     x: 252.66667
     y: 80
-    width: 740
+    width: 738
     height: 279
 >>>>>>> Jiawei
 =======
@@ -1673,6 +1738,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -402
     m_HBaseRangeMax: 402
     m_VBaseRangeMin: -154
@@ -1698,6 +1764,10 @@ MonoBehaviour:
 =======
     m_HBaseRangeMin: -370
     m_HBaseRangeMax: 370
+=======
+    m_HBaseRangeMin: -369
+    m_HBaseRangeMax: 369
+>>>>>>> Jiawei
     m_VBaseRangeMin: -131
     m_VBaseRangeMax: 131
 >>>>>>> Jiawei
@@ -1740,6 +1810,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1793,12 +1864,19 @@ MonoBehaviour:
 =======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+      width: 738
+      height: 262
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 369, y: 131}
+>>>>>>> Jiawei
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1826,8 +1904,11 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
       x: -370
+=======
+      x: -369
+>>>>>>> Jiawei
       y: -131
-      width: 740
+      width: 738
       height: 262
 >>>>>>> Jiawei
 =======
@@ -1842,6 +1923,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1878,6 +1960,9 @@ MonoBehaviour:
 =======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
+=======
+  m_LastWindowPixelSize: {x: 1107, y: 418.5}
+>>>>>>> Jiawei
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
