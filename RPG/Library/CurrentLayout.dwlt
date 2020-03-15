@@ -41,6 +41,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 0
     y: 43
@@ -107,6 +111,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     x: 8
     y: 51
     width: 1904
@@ -159,6 +165,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     width: 1920
     height: 947
@@ -173,14 +183,19 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     width: 1904
     height: 931
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 77
+  controlID: 85
 --- !u!114 &3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -213,6 +228,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 1369
     y: 0
@@ -237,6 +256,11 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+>>>>>>> Stashed changes
 >>>>>>> Jichi
     x: 1518
     y: 0
@@ -246,6 +270,9 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 14}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -292,6 +319,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     width: 401
     height: 574
@@ -304,12 +335,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     width: 376
     height: 563
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -352,9 +388,18 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     y: 574
     width: 1369
     height: 373
+=======
+    y: 563
+    width: 1518
+    height: 368
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
 =======
     y: 563
     width: 1518
@@ -415,9 +460,18 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1920
     height: 997
   m_MinSize: {x: 950, y: 524}
+=======
+    width: 1904
+    height: 981
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
 =======
     width: 1904
     height: 981
@@ -463,7 +517,14 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     width: 1920
+=======
+    width: 1904
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
 =======
     width: 1904
 >>>>>>> Stashed changes
@@ -510,8 +571,16 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     y: 977
     width: 1920
+=======
+    y: 961
+    width: 1904
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
 =======
     y: 961
     width: 1904
@@ -567,6 +636,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     width: 1369
     height: 947
@@ -581,14 +654,19 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     width: 1518
     height: 931
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 13
+  controlID: 86
 --- !u!114 &10
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -632,6 +710,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     width: 1369
     height: 574
@@ -646,14 +728,19 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     width: 1518
     height: 563
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 14
+  controlID: 87
 --- !u!114 &11
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -690,6 +777,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 401
     y: 0
@@ -702,12 +793,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     x: 376
     y: 0
     width: 1142
     height: 563
   m_MinSize: {x: 204, y: 224}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -786,6 +882,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 0
     y: 647
@@ -797,11 +897,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     x: 8
     y: 644
     width: 1516
     height: 348
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -846,6 +951,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     - Assets/Art
   m_ViewMode: 1
@@ -871,8 +980,9 @@ MonoBehaviour:
 =======
     - Assets/Scenes
 =======
-    - Assets
+=======
 >>>>>>> Stashed changes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
@@ -883,6 +993,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 357}
     m_SelectedIDs: 0a130000
     m_LastClickedID: 4874
@@ -892,10 +1003,15 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 =======
+=======
+>>>>>>> Stashed changes
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 487f0000
     m_LastClickedID: 32584
     m_ExpandedIDs: 00000000ec630000f2630000006400001064000022640000286400002a640000346400003c640000487f000000ca9a3b
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
     m_RenameOverlay:
@@ -930,9 +1046,16 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000680b0000de100000161100002a1200003a1400000e1500006e150000a61500007c230000dc230000
 =======
     m_ExpandedIDs: 000000006e0b0000e61000001e11000032120000421400001815000078150000b015000086230000e8230000
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_ExpandedIDs: 00000000ec630000f2630000006400001064000022640000286400002a640000346400003c640000487f0000
 >>>>>>> Stashed changes
 <<<<<<< HEAD
 >>>>>>> Jichi
@@ -983,8 +1106,16 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b2230000840c0000
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
 =======
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
@@ -1058,6 +1189,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 1369
     y: 73
@@ -1075,11 +1210,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     x: 1526
     y: 81
     width: 384
     height: 911
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1129,6 +1269,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 0
     y: 73
@@ -1140,11 +1284,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     x: 8
     y: 81
     width: 374
     height: 543
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1178,6 +1327,7 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: d0afffff
       m_LastClickedID: 0
       m_ExpandedIDs: 14d1ffff98d2ffffa6d2ffff84dafffff0daffff8ee3ffff92e4ffff32edffff80eeffffc6f4ffffccf4ffffdefbffff102600008c8c0000
@@ -1193,6 +1343,14 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: e664fffffe64ffffa866ffffb466ffff326fffff
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ca64ffffe264ffff9266ffff9e66ffff326fffff
 >>>>>>> Stashed changes
 >>>>>>> Jichi
       m_RenameOverlay:
@@ -1217,7 +1375,7 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: fa80e3234a618754e80f761b4d12cb73
+  m_WindowGUID: b7c88da2785d0384db89b8d009300fd1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1253,6 +1411,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 401
     y: 73
@@ -1270,17 +1432,22 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     x: 384
     y: 81
     width: 1138
     height: 543
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_WindowGUID: 54d96280fcea36f458e17889dfdc0fda
+  m_WindowGUID: 944dacfb1bb8e0d4d8406daf374b593b
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
@@ -1305,6 +1472,7 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 24.731321, y: -4.0525737, z: -0.10950464}
     speed: 2
     m_Value: {x: 24.731321, y: -4.0525737, z: -0.10950464}
@@ -1320,6 +1488,14 @@ MonoBehaviour:
     m_Target: {x: -2.9871557, y: -0.2993982, z: -0.13065867}
     speed: 2
     m_Value: {x: -2.9871557, y: -0.2993982, z: -0.13065867}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
 >>>>>>> Jichi
   m_RenderMode: 0
@@ -1372,6 +1548,7 @@ MonoBehaviour:
 =======
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: 18.057268
     speed: 2
     m_Value: 18.057268
@@ -1387,6 +1564,14 @@ MonoBehaviour:
     m_Target: 23.0786
     speed: 2
     m_Value: 23.0786
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+=======
+    m_Target: 10
+    speed: 2
+    m_Value: 10
 >>>>>>> Stashed changes
 >>>>>>> Jichi
   m_Ortho:
@@ -1435,6 +1620,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
     x: 401
     y: 73
@@ -1459,10 +1648,15 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 =======
+=======
+>>>>>>> Stashed changes
     x: 507
     y: 94
     width: 1532
     height: 790
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -1484,6 +1678,10 @@ MonoBehaviour:
     m_VBaseRangeMin: -154
     m_VBaseRangeMax: 154
 =======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
@@ -1514,10 +1712,15 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 =======
+=======
+>>>>>>> Stashed changes
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -386.5
     m_VBaseRangeMax: 386.5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
     m_HAllowExceedBaseRangeMin: 1
@@ -1551,6 +1754,10 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
+=======
+<<<<<<< Updated upstream
 >>>>>>> Jichi
       width: 964
       height: 537
@@ -1575,10 +1782,15 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 =======
+=======
+>>>>>>> Stashed changes
       width: 1532
       height: 773
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 766, y: 386.5}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
     m_MarginLeft: 0
@@ -1595,6 +1807,10 @@ MonoBehaviour:
       width: 804
       height: 308
 =======
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> Jichi
 =======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
@@ -1646,6 +1862,8 @@ MonoBehaviour:
 >>>>>>> Jichi
 =======
 =======
+=======
+>>>>>>> Stashed changes
       x: -766
       y: -386.5
       width: 1532
@@ -1655,6 +1873,9 @@ MonoBehaviour:
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
   m_LastWindowPixelSize: {x: 1532, y: 790}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 >>>>>>> Jichi
   m_ClearInEditMode: 1
