@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Antoine_movement.cs">
 =======
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController/SlimeController.cs">
@@ -35,6 +36,16 @@
       <File FileName="Assets/Scripts/Antoine_movement.cs" Line="1" Column="1" />
 =======
 >>>>>>> Kevin
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController/HurtEnemySpell.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SpellController.cs" Line="72" Column="33" IsPinned="True" />
+      <File FileName="Assets/Scripts/PlayerController/PlayerController.cs" Line="149" Column="39" />
+      <File FileName="Assets/Scripts/PlayerController/HurtEnemy.cs" Line="39" Column="77" />
+      <File FileName="Assets/Scripts/EnemyController/EnemyHealthManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyOverTime.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController/HurtEnemySpell.cs" Line="18" Column="45" />
+>>>>>>> Kevin
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -46,7 +57,9 @@
                   <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
+              <Node name="InventoryMaster" expanded="True" />
               <Node name="Scripts" expanded="True">
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <Node name="EnemyController" expanded="True" />
                 <Node name="PlayerController" expanded="True" />
@@ -56,6 +69,12 @@
                   <Node name="SlimeController.cs" selected="True" />
                 </Node>
                 <Node name="PlayerController" expanded="True" />
+>>>>>>> Kevin
+=======
+                <Node name="EnemyController" expanded="True" />
+                <Node name="PlayerController" expanded="True">
+                  <Node name="HurtEnemySpell.cs" selected="True" />
+                </Node>
 >>>>>>> Kevin
               </Node>
             </Node>
@@ -67,9 +86,13 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 <<<<<<< HEAD
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="29462167-7b6e-42c6-9f68-dde790f791a8" />
 =======
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9571bed0-971e-4d5d-a6a5-3773640bf76f" />
+>>>>>>> Kevin
+=======
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1abc05f9-1bfb-4103-9471-82a2e761a3c9" />
 >>>>>>> Kevin
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

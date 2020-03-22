@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":25.135982513427736,"y":-13.314434051513672,"z":0.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":2.3566715717315676,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":24.731321334838868,"y":-4.0525736808776859,"z":-0.10950464010238648},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":18.057268142700197,"orthographic":true}
@@ -19,3 +20,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":27.40994644165039,"y":-2.1298623085021974,"z":0.3450520932674408},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":22.102663040161134,"orthographic":true}
 >>>>>>> Jiawei
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":4.616784572601318,"y":-3.7432942390441896,"z":4.9026103019714359},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":17.331565856933595,"orthographic":true}
+>>>>>>> Kevin

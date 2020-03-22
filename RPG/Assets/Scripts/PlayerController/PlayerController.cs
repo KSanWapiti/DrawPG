@@ -30,10 +30,15 @@ public class PlayerController : MonoBehaviour
     private SpellController spellcontroller;
     public GameObject fireball;
 
-    
+
+    //To show text in chat
+    private DialogueManager text;
+    private int z;
     // Start is called before the first frame update
     void Start()
     {
+        z = 0;
+
         spellcontroller = FindObjectOfType<SpellController>();
 
         if (!playerExists)
@@ -127,6 +132,7 @@ public class PlayerController : MonoBehaviour
 
 
         // Attack Controller
+            //Basic Attack
         
         if (Input.GetKeyDown(KeyCode.J))
         {
@@ -135,7 +141,11 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("Attacking", true);
             
         }
+        //Spell 1 :
 
+        text = FindObjectOfType<DialogueManager>();
+
+        
         if (Input.GetKeyUp(KeyCode.K))
         {
             float z = 0f;
@@ -156,10 +166,10 @@ public class PlayerController : MonoBehaviour
             }
 
             Vector3 EulerRotation = new Vector3(0f, 0f, z);
+            Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation ) );
+
 
             
-            Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation ) );
-            spellcontroller.castSpell(z);
         }
 
         

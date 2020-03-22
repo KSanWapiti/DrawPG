@@ -5,12 +5,15 @@ using UnityEngine;
 public class SpellController : MonoBehaviour
 {
     public float moveSpeed;
-    private Rigidbody2D rigidbody;
+    private new Rigidbody2D rigidbody;
     private float direction;
+
+    private DialogueManager text;
 
     // Start is called before the first frame update
     void Start()
     {
+        text = FindObjectOfType<DialogueManager>();
 
         rigidbody = GetComponent<Rigidbody2D>();
     }
@@ -18,9 +21,30 @@ public class SpellController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        direction = transform.rotation.z;
+        text.ShowText(" direction = " + direction.ToString() + " transform.rotation.z = " + transform.rotation.z.ToString());
 
+        if (-0.02f < direction & direction < 0.02f)
+        {
+            rigidbody.velocity = new Vector2(-moveSpeed, 0);
+        }
+        else if( -0.8f < direction & direction < -0.6f)
+        {
+            rigidbody.velocity = new Vector2(0,moveSpeed);
+        }
+        else if ( -1.1f < direction & direction < -0.9f)
+        {
+            rigidbody.velocity = new Vector2(moveSpeed, 0);
+        }
+        else if ( 0.6f < direction & direction < 0.8f)
+        {
+            rigidbody.velocity = new Vector2(0, -moveSpeed);
+        }
+        /*
         switch (direction)
         {
+
+            
             case 180f:
                 rigidbody.velocity = new Vector2(-moveSpeed, 0);
                 break;
@@ -37,18 +61,17 @@ public class SpellController : MonoBehaviour
                 rigidbody.velocity = new Vector2(0, 0);
                 break;
         }
+        */
 
     }
-
-    public void castSpell(float z) => direction = z;
-
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Enemy")
         {
-
+            Destroy(gameObject);
         }
+
         
     }
 }

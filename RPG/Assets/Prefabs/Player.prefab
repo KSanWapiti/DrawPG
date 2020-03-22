@@ -211,10 +211,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9161316620345088558}
     m_Modifications:
+    - target: {fileID: 1447739823043238356, guid: c5c13d85d37c34ddfb73182cdd10c193,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447739823043238356, guid: c5c13d85d37c34ddfb73182cdd10c193,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.67
+      objectReference: {fileID: 0}
     - target: {fileID: 1798948155874813688, guid: c5c13d85d37c34ddfb73182cdd10c193,
         type: 3}
       propertyPath: m_Name
       value: swing effects_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798948155874813688, guid: c5c13d85d37c34ddfb73182cdd10c193,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1798948155874813691, guid: c5c13d85d37c34ddfb73182cdd10c193,
         type: 3}
