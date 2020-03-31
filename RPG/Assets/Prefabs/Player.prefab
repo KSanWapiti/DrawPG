@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5676807727806762130}
   - component: {fileID: 5676807727806762129}
+  - component: {fileID: 1756697340799306264}
   - component: {fileID: 5676807727806762131}
   - component: {fileID: 107079652585122352}
   - component: {fileID: 8086466698597158595}
@@ -86,6 +87,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1756697340799306264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5676807727806762128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577238b2495d04a529bc2fdbfb55e39c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentXp: 0
+  currentLvl: 0
+  xpArray: 000000000a000000140000003200000064000000c8000000f401000010270000204e000030750000
+  lvlEffect: {fileID: 437634102842983662, guid: 096d4766ba61541e8ae66e17586c53e4,
+    type: 3}
 --- !u!114 &5676807727806762131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,10 +229,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9161316620345088558}
     m_Modifications:
+    - target: {fileID: 1447739823043238356, guid: c5c13d85d37c34ddfb73182cdd10c193,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1447739823043238356, guid: c5c13d85d37c34ddfb73182cdd10c193,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.67
+      objectReference: {fileID: 0}
     - target: {fileID: 1798948155874813688, guid: c5c13d85d37c34ddfb73182cdd10c193,
         type: 3}
       propertyPath: m_Name
       value: swing effects_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798948155874813688, guid: c5c13d85d37c34ddfb73182cdd10c193,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1798948155874813691, guid: c5c13d85d37c34ddfb73182cdd10c193,
         type: 3}

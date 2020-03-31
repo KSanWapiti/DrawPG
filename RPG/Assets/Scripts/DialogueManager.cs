@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject dialogueBox;
     public Text dialogueText;
+    public Text chatText;
 
 
     public bool dialogueActive;
@@ -38,5 +39,10 @@ public class DialogueManager : MonoBehaviour
         dialogueBox.SetActive(true);
         dialogueText.text = dialogue;
 
+    }
+
+    public void ShowText( string text)
+    {
+        chatText.text = text;
     }
 }
