@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
 
     private SpellController spellcontroller;
     public GameObject fireball;
+    public GameObject fireballPurple;
 
 
     //To show text in chat
@@ -172,7 +173,34 @@ public class PlayerController : MonoBehaviour
             
         }
 
-        
+        //Spell 2 :
+
+
+        if (Input.GetKeyUp(KeyCode.L))
+        {
+            float z = 0f;
+
+            if (lastMove.x > 0.5f)
+            {
+                z = 180f;
+            }
+
+            if (lastMove.x < -0.5f)
+            {
+                z = 0f;
+            }
+
+            if (Mathf.Abs(lastMove.y) > 0.5f)
+            {
+                z = lastMove.y * (-90f);
+            }
+
+            Vector3 EulerRotation = new Vector3(0f, 0f, z);
+            Instantiate(fireballPurple, myRigidBody.position, Quaternion.Euler(EulerRotation));
+
+        }
+
+
 
         if (hurtEffectTimeCounter > 0.66f * hurtEffectTime )
         {

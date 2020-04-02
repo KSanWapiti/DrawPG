@@ -113,6 +113,7 @@
     <Compile Include="Assets\Scripts\damageDisplay.cs" />
     <Compile Include="Assets\Scripts\DestroyOverTime.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\DrawLine.cs" />
     <Compile Include="Assets\Scripts\EnemyController\EnemyHealthManager.cs" />
     <Compile Include="Assets\Scripts\EnemyController\HurtPlayer.cs" />
     <Compile Include="Assets\Scripts\EnemyController\SlimeController.cs" />
@@ -128,6 +129,7 @@
     <Compile Include="Assets\Scripts\PNGDialogue.cs" />
     <Compile Include="Assets\Scripts\PNGMovementController.cs" />
     <Compile Include="Assets\Scripts\pngpngcontroller.cs" />
+    <Compile Include="Assets\Scripts\sort position souris.cs" />
     <Compile Include="Assets\Scripts\SpellController.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\Packs\roguelike-pack\License.txt" />

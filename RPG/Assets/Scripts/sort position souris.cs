@@ -51,8 +51,8 @@ public class sortpositionsouris : MonoBehaviour
         formesPossibles.Add(boule); formesPossibles.Add(mur); formesPossibles.Add(attaque); //on crée la liste de toutes les formes
         noms.Add("boule"); noms.Add("mur");noms.Add("attaque"); // on leur associe un nom via la liste noms
         Vector3 sourisInitiale = Input.mousePosition;
-        width = (int)Math.Round(Screen.width);
-        heigth = (int)Math.Round(Screen.height);
+        width = (int)Mathf.Round(Screen.width);
+        heigth = (int)Mathf.Round(Screen.height);
         tailleCarreauX = width / 3;
         tailleCarreauY = heigth / 3;
         positionXPrécédente = (int)Math.Round(sourisInitiale[0])/tailleCarreauX;
