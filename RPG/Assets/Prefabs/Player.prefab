@@ -122,6 +122,8 @@ MonoBehaviour:
   attackSpeed: 0.05
   hurtEffectTime: 0.3
   fireball: {fileID: 335124177209083865, guid: 72a32497be6c143f597b6c3d82e52961, type: 3}
+  fireballPurple: {fileID: 335124177209083865, guid: 86b32d5d58586492590665dd64ad2782,
+    type: 3}
 --- !u!114 &107079652585122352
 MonoBehaviour:
   m_ObjectHideFlags: 0

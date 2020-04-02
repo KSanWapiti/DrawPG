@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2526370935797273651}
   - component: {fileID: 428812693013482992}
   - component: {fileID: 1678637612864161443}
+  - component: {fileID: 7548445691132330316}
   m_Layer: 0
   m_Name: Spells (1)
   m_TagString: Untagged
@@ -114,6 +115,25 @@ MonoBehaviour:
   damageDisplay: {fileID: 7336829232458621496, guid: 5fc671221bbaa4a90ac15e7d112f732d,
     type: 3}
   stunTime: 0
+--- !u!95 &7548445691132330316
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335124177209083865}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b87d125111d9f4f40917490c932d1a2d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4338855950163132746
 GameObject:
   m_ObjectHideFlags: 0
