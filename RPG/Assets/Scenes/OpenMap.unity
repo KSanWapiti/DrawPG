@@ -1045,7 +1045,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &505328890
 CircleCollider2D:
@@ -4670,6 +4670,7 @@ MonoBehaviour:
   currentXp: 0
   currentLvl: 0
   xpArray: 000000000a000000140000003200000064000000c8000000f4010000e8030000dc050000d0070000
+  lvlEffect: {fileID: 0}
 --- !u!114 &1310660362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4911,6 +4912,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333768940}
   m_CullTransparentMesh: 0
+--- !u!1 &1343623731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 164732056874915572, guid: e0cb18b7ebb4448e4876db99d7d2cf1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1234268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1343623736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343623731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6009ff2880d45324fb81d8a644ed154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tailleCarreauX: 0
+  tailleCarreauY: 0
+  positionXPrecedentNormee: 0
+  positionYPrecedentNormee: 0
+  positionXnormee: 0
+  positionYnormee: 0
+  "dessinEffectu\xE9": 
 --- !u!1001 &1357109760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5928,7 +5954,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1729691661
 Animator:
