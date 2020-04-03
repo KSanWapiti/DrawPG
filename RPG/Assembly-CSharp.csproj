@@ -63,11 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ColorPalletSwapper\ActionCode\Scripts\Cameras\CameraLockFollow.cs" />
-    <Compile Include="Assets\ColorPalletSwapper\ActionCode\Scripts\CollorPalettes\ColorPalette.cs" />
-    <Compile Include="Assets\ColorPalletSwapper\ActionCode\Scripts\CollorPalettes\ColorPaletteSwapper.cs" />
-    <Compile Include="Assets\ColorPalletSwapper\ActionCode\Scripts\CollorPalettes\ColorPaletteSwapperCycle.cs" />
-    <Compile Include="Assets\ColorPalletSwapper\ActionCode\Scripts\Motors\SimplePlayerMotor.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
@@ -134,10 +129,7 @@
     <Compile Include="Assets\Scripts\UIManager.cs" />
     <None Include="Assets\Packs\roguelike-pack\License.txt" />
     <None Include="Assets\Materials\Color Original-positions.txt" />
-    <None Include="Assets\ColorPalletSwapper\README.txt" />
-    <None Include="Assets\ColorPalletSwapper\Sprites\Palettes\Color Original-positions.txt" />
     <None Include="Assets\Packs\roguelike-pack\Spritesheet\spritesheetInfo.txt" />
-    <None Include="Assets\ColorPalletSwapper\Sprites\Palettes\Completed\MegaWomanPalette-Original-positions.txt" />
     <None Include="Assets\InventoryMaster\readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Makarije/Documents/GitHub/DrawPGkraken/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
