@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
     public float walkSpeed;
@@ -43,7 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         z = 0;
         spellcontroller = FindObjectOfType<SpellController>();
-
+        dessin = FindObjectOfType<Mouvement>();
         if (!playerExists)
         {
             playerExists = true;
@@ -146,14 +147,15 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("Attacking", true);
             
         }
-        
+        //try { forme = dessin.dessin(); } catch (System.Exception e) { print(e); }
         //Spell 1 :
 
+        forme = dessin.dessin();
+        print("forme récupérée");
         text = FindObjectOfType<DialogueManager>();
-        if (forme != formeActuelle)
-        {
-            formeActuelle = forme;
-            if (formeActuelle == "mur")
+
+
+        if (forme == "mur")
             {
                 float z = 0f;
 
@@ -182,7 +184,7 @@ public class PlayerController : MonoBehaviour
             //Spell 2 :
 
 
-            if (formeActuelle == "boule")
+            if (forme == "boule")
             {
                 float z = 0f;
 
@@ -205,7 +207,7 @@ public class PlayerController : MonoBehaviour
                 Instantiate(fireballPurple, myRigidBody.position, Quaternion.Euler(EulerRotation));
 
             }
-        }
+        
 
         
         

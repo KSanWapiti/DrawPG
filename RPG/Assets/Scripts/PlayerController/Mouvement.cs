@@ -94,6 +94,7 @@ void Start()
     // Update is called once per frame
     void Update()
     {
+        string dessin2 = "Mauvaise forme";
         //print(dessinEffectué);
         if (Input.GetMouseButtonDown(0))
         {
@@ -103,7 +104,7 @@ void Start()
         }
         if (Input.GetMouseButton(0))
         {
-            dessinEffectué = "Mauvaise forme";
+
             tailleCarreauX =Screen.width/5;
             tailleCarreauY=Screen.height/5;
             Vector3 mouseInScreen = Input.mousePosition;
@@ -146,7 +147,7 @@ void Start()
                     print("assez long");
                     foreach (Collection<variations> formes in formesIdentifiées)
                     {
-                        if (dessinEffectué!="Mauvaise forme")
+                        if (dessin2!="Mauvaise forme")
                         {
                             print("forme reconnue");
                             break;
@@ -162,12 +163,12 @@ void Start()
                             if (i == 3)
                             {
                                 dessinEffectué = formesDispo[formesIdentifiées.IndexOf(formes)];
-                                dessinRenvoyé = dessinEffectué;
+                                dessin2 = dessinEffectué;
                             }
 
                         }
                     }
-                    //print(dessinEffectué);
+                    print(dessinEffectué);
                     formeDessinee = new Collection<variations>();
                 }
 
