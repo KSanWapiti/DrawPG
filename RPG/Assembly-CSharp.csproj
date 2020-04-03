@@ -117,8 +117,10 @@
     <Compile Include="Assets\Scripts\EnemyController\EnemyHealthManager.cs" />
     <Compile Include="Assets\Scripts\EnemyController\HurtPlayer.cs" />
     <Compile Include="Assets\Scripts\EnemyController\SlimeController.cs" />
+    <Compile Include="Assets\Scripts\JiaweiMouvement.cs" />
     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
     <Compile Include="Assets\Scripts\mouvementjeanmichel.cs" />
+    <Compile Include="Assets\Scripts\PlayerController\DessinForme.cs" />
     <Compile Include="Assets\Scripts\PlayerController\HurtEnemy.cs" />
     <Compile Include="Assets\Scripts\PlayerController\HurtEnemySpell.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerController.cs" />
