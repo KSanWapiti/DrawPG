@@ -105,8 +105,6 @@
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
-    <Compile Include="Assets\JiaweiMouvement.cs" />
-    <Compile Include="Assets\Mouvement.cs" />
     <Compile Include="Assets\Scripts\Antoine_movement.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ChangeSprite.cs" />
@@ -120,9 +118,9 @@
     <Compile Include="Assets\Scripts\JiaweiMouvement.cs" />
     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
     <Compile Include="Assets\Scripts\mouvementjeanmichel.cs" />
-    <Compile Include="Assets\Scripts\PlayerController\DessinForme.cs" />
     <Compile Include="Assets\Scripts\PlayerController\HurtEnemy.cs" />
     <Compile Include="Assets\Scripts\PlayerController\HurtEnemySpell.cs" />
+    <Compile Include="Assets\Scripts\PlayerController\Mouvement.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PLayerHealthController.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerStats.cs" />

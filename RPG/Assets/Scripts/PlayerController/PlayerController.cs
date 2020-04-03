@@ -30,8 +30,11 @@ public class PlayerController : MonoBehaviour
     private SpellController spellcontroller;
     public GameObject fireball;
     public GameObject fireballPurple;
-
-
+    
+    //on récupère les formes dessinées
+    private Mouvement dessin;
+    string forme;
+    string formeActuelle;
     //To show text in chat
     private DialogueManager text;
     private int z;
@@ -39,7 +42,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         z = 0;
-
         spellcontroller = FindObjectOfType<SpellController>();
 
         if (!playerExists)
@@ -56,6 +58,8 @@ public class PlayerController : MonoBehaviour
         walkSpeedDiag = walkSpeed * diviseurDiagMouvement;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
+        forme = dessin.dessinRenvoyé;
+        formeActuelle = forme;
     }
 
     // Update is called once per frame
@@ -65,10 +69,10 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
 
-
+        
         moving = false;
-
-        if(attackSpeedCounter > 0)
+        
+        if (attackSpeedCounter > 0)
         {
             attackSpeedCounter -= Time.deltaTime;
             if (attackSpeedCounter <= 0)
@@ -131,75 +135,80 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("PositionX", lastMove.x);
         anim.SetFloat("PositionY", lastMove.y);
 
-
+        
         // Attack Controller
             //Basic Attack
-        
-        if (Input.GetKeyDown(KeyCode.J))
+
+        if (Input.GetKeyUp(KeyCode.J))
         {
             //attackState = true;
             attackSpeedCounter = attackSpeed;
             anim.SetBool("Attacking", true);
             
         }
+        
         //Spell 1 :
 
         text = FindObjectOfType<DialogueManager>();
+        if (forme != formeActuelle)
+        {
+            formeActuelle = forme;
+            if (formeActuelle == "mur")
+            {
+                float z = 0f;
+
+                if (lastMove.x > 0.5f)
+                {
+                    z = 180f;
+                }
+
+                if (lastMove.x < -0.5f)
+                {
+                    z = 0f;
+                }
+
+                if (Mathf.Abs(lastMove.y) > 0.5f)
+                {
+                    z = lastMove.y * (-90f);
+                }
+
+                Vector3 EulerRotation = new Vector3(0f, 0f, z);
+                Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation));
+
+
+
+            }
+
+            //Spell 2 :
+
+
+            if (formeActuelle == "boule")
+            {
+                float z = 0f;
+
+                if (lastMove.x > 0.5f)
+                {
+                    z = 180f;
+                }
+
+                if (lastMove.x < -0.5f)
+                {
+                    z = 0f;
+                }
+
+                if (Mathf.Abs(lastMove.y) > 0.5f)
+                {
+                    z = lastMove.y * (-90f);
+                }
+
+                Vector3 EulerRotation = new Vector3(0f, 0f, z);
+                Instantiate(fireballPurple, myRigidBody.position, Quaternion.Euler(EulerRotation));
+
+            }
+        }
 
         
-        if (Input.GetKeyUp(KeyCode.K))
-        {
-            float z = 0f;
-
-            if (lastMove.x > 0.5f)
-            {
-                z = 180f;
-            }
-
-            if (lastMove.x < - 0.5f)
-            {
-                z = 0f;
-            }
-
-            if (Mathf.Abs(lastMove.y) > 0.5f)
-            {
-                z = lastMove.y * (-90f);
-            }
-
-            Vector3 EulerRotation = new Vector3(0f, 0f, z);
-            Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation ) );
-
-
-            
-        }
-
-        //Spell 2 :
-
-
-        if (Input.GetKeyUp(KeyCode.L))
-        {
-            float z = 0f;
-
-            if (lastMove.x > 0.5f)
-            {
-                z = 180f;
-            }
-
-            if (lastMove.x < -0.5f)
-            {
-                z = 0f;
-            }
-
-            if (Mathf.Abs(lastMove.y) > 0.5f)
-            {
-                z = lastMove.y * (-90f);
-            }
-
-            Vector3 EulerRotation = new Vector3(0f, 0f, z);
-            Instantiate(fireballPurple, myRigidBody.position, Quaternion.Euler(EulerRotation));
-
-        }
-
+        
 
 
         if (hurtEffectTimeCounter > 0.66f * hurtEffectTime )

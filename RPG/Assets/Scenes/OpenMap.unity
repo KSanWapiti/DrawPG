@@ -1193,6 +1193,25 @@ MonoBehaviour:
   craftSystem: {fileID: 124942857}
   HPMANACanvas: {fileID: 0}
   currentHealth: 60
+--- !u!114 &544616120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544616118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6009ff2880d45324fb81d8a644ed154e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tailleCarreauX: 0
+  tailleCarreauY: 0
+  positionXPrecedentNormee: 0
+  positionYPrecedentNormee: 0
+  positionXnormee: 0
+  positionYnormee: 0
+  "dessinEffectu\xE9": 
 --- !u!1 &551836997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,31 +4931,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333768940}
   m_CullTransparentMesh: 0
---- !u!1 &1343623731 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 164732056874915572, guid: e0cb18b7ebb4448e4876db99d7d2cf1d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1234268}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1343623736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343623731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6009ff2880d45324fb81d8a644ed154e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tailleCarreauX: 0
-  tailleCarreauY: 0
-  positionXPrecedentNormee: 0
-  positionYPrecedentNormee: 0
-  positionXnormee: 0
-  positionYnormee: 0
-  "dessinEffectu\xE9": 
 --- !u!1001 &1357109760
 PrefabInstance:
   m_ObjectHideFlags: 0
