@@ -5,6 +5,20 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Canvas
+  - Tooltip
+  - EquipmentSystem
+  - Hotbar
+  - CraftSystem
+  - Panel
+  - Timer
+  - DraggingItem
+  - MainInventory
+  - Slots
+  - ResultSlot
+  - Slot
+  - Item
+  - ItemIcon
   layers:
   - Default
   - TransparentFX
@@ -48,15 +62,27 @@ TagManager:
   - name: Grass
     uniqueID: 193090707
     locked: 0
+  - name: GrassEffect
+    uniqueID: 1834387687
+    locked: 0
   - name: Player
     uniqueID: 1775287783
     locked: 0
   - name: Rocks
     uniqueID: 567227951
     locked: 0
+  - name: House
+    uniqueID: 784129509
+    locked: 0
   - name: Trees
     uniqueID: 2753274505
     locked: 0
+  - name: TreesEffect
+    uniqueID: 2591484793
+    locked: 0
   - name: Effects
     uniqueID: 3142881207
+    locked: 0
+  - name: RocksEntry
+    uniqueID: 136899151
     locked: 0

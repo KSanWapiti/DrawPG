@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ColorPalletSwapper\ActionCode\Scripts\CollorPalettes\Editor\ColorPaletteEditor.cs" />
     <Compile Include="Assets\InventoryMaster\Editor\CraftSystemEditor.cs" />
     <Compile Include="Assets\InventoryMaster\Editor\EquipmentSystemEditor.cs" />
     <Compile Include="Assets\InventoryMaster\Editor\HotbarEditor.cs" />
