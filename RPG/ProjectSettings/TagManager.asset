@@ -65,11 +65,11 @@ TagManager:
   - name: GrassEffect
     uniqueID: 2333844301
     locked: 0
-  - name: Player
-    uniqueID: 1775287783
-    locked: 0
   - name: Relief
     uniqueID: 2891893571
+    locked: 0
+  - name: Stairs
+    uniqueID: 3142881207
     locked: 0
   - name: Entry
     uniqueID: 1768039673
@@ -77,18 +77,21 @@ TagManager:
   - name: House
     uniqueID: 2046274469
     locked: 0
+  - name: Player
+    uniqueID: 1775287783
+    locked: 0
   - name: HouseEffect
     uniqueID: 397381401
     locked: 0
   - name: Rocks
     uniqueID: 567227951
     locked: 0
+  - name: "Other D\xE9cor"
+    uniqueID: 4038123655
+    locked: 0
   - name: Tree
     uniqueID: 2753274505
     locked: 0
   - name: TreeEffect
     uniqueID: 2558376465
-    locked: 0
-  - name: Effects
-    uniqueID: 3142881207
     locked: 0
