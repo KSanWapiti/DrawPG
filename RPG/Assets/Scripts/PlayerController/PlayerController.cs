@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D myRigidBody;
 
     private static bool playerExists;
+    private int timerBoule;
+    private int timerMur;
 
     public float attackSpeed;
     private float attackSpeedCounter;
@@ -26,7 +28,6 @@ public class PlayerController : MonoBehaviour
     public float hurtEffectTime;
 
     private SpriteRenderer spriteRenderer;
-
 
     private SpellController spellcontroller;
     public GameObject fireball;
@@ -39,6 +40,15 @@ public class PlayerController : MonoBehaviour
     //To show text in chat
     private DialogueManager text;
     private int z;
+    public int decompte(int t)
+    {
+        if (t != 0)
+        {
+            t = t - 1;
+            return (t);
+        }
+        return (t);
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -57,7 +67,8 @@ public class PlayerController : MonoBehaviour
         }
 
         walkSpeedDiag = walkSpeed * diviseurDiagMouvement;
-
+        timerBoule = 0;
+        timerMur = 0;
         spriteRenderer = GetComponent<SpriteRenderer>();
         forme = dessin.dessinRenvoyé;
         formeActuelle = forme;
@@ -154,8 +165,11 @@ public class PlayerController : MonoBehaviour
         print("forme récupérée");
         text = FindObjectOfType<DialogueManager>();
 
-
-        if (forme == "mur")
+        timerMur=decompte(timerMur);
+        timerBoule=decompte(timerBoule);
+        print("timerMur =" + timerMur);
+        print("timerBoule =" + timerBoule);
+        if (forme == "mur" && timerMur==0)
             {
                 float z = 0f;
 
@@ -176,15 +190,15 @@ public class PlayerController : MonoBehaviour
 
                 Vector3 EulerRotation = new Vector3(0f, 0f, z);
                 Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation));
-
-
+            timerMur = 300;
+            forme = "Mauvaise forme";
 
             }
 
             //Spell 2 :
 
 
-            if (forme == "boule")
+        if (forme == "boule" && timerBoule==0)
             {
                 float z = 0f;
 
@@ -205,7 +219,8 @@ public class PlayerController : MonoBehaviour
 
                 Vector3 EulerRotation = new Vector3(0f, 0f, z);
                 Instantiate(fireballPurple, myRigidBody.position, Quaternion.Euler(EulerRotation));
-
+            timerBoule = 300;
+            forme = "Mauvaise forme";
             }
         
 

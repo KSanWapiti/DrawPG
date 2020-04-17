@@ -179,6 +179,7 @@ void Start()
         if (Input.GetMouseButtonUp(0))
         {
             formeDessinee = new Collection<variations>();
+            dessinEffectué = "Mauvaise forme";
         }
     }
 }
