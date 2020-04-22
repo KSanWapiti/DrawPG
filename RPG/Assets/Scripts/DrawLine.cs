@@ -13,6 +13,7 @@ public class DrawLine : MonoBehaviour
     public EdgeCollider2D edgeCollider;
 
     public List<Vector2> fingerPositions;
+    public Transform Camera;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,10 @@ public class DrawLine : MonoBehaviour
         }
         if (Input.GetMouseButton(0))
         {
-            Vector2 tempFingerPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 CameraPosition= Camera.position;
+            float Xmilieu= Screen.width/2;
+            float Ymilieu= Screen.height/2;
+            Vector2 tempFingerPos = new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*22,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*12);
             if (Vector2.Distance(tempFingerPos, fingerPositions[fingerPositions.Count - 1]) > .1f)
             {
                 UpdateLine(tempFingerPos);
@@ -40,14 +44,15 @@ public class DrawLine : MonoBehaviour
 
     void CreateLine()
     {
+        Vector2 CameraPosition= Camera.position;
+        float Xmilieu= Screen.width/2;
+        float Ymilieu= Screen.height/2;
         currentLine = Instantiate(linePrefab, Vector3.zero, Quaternion.identity);
         lineRenderer = currentLine.GetComponent<LineRenderer>();
         fingerPositions.Clear();
-        fingerPositions.Add(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-        fingerPositions.Add(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        fingerPositions.Add(new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*22,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*12));
 
         lineRenderer.SetPosition(0, fingerPositions[0]);
-        lineRenderer.SetPosition(1, fingerPositions[1]);
     }
 
 
