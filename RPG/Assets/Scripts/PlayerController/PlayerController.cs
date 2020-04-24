@@ -162,13 +162,13 @@ public class PlayerController : MonoBehaviour
         //Spell 1 :
 
         forme = dessin.dessin();
-        print("forme récupérée");
+        //print("forme récupérée");
         text = FindObjectOfType<DialogueManager>();
 
         timerMur=decompte(timerMur);
         timerBoule=decompte(timerBoule);
-        print("timerMur =" + timerMur);
-        print("timerBoule =" + timerBoule);
+        //print("timerMur =" + timerMur);
+        //print("timerBoule =" + timerBoule);
         if (forme == "mur" && timerMur==0)
             {
                 float z = 0f;
