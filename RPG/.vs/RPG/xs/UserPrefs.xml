@@ -1,105 +1,18 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Antoine_movement.cs">
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController/SlimeController.cs">
->>>>>>> Kevin
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/SpellController.cs" Line="1" Column="1" IsPinned="True" />
-      <File FileName="Assets/Scripts/damageDisplay.cs" />
-      <File FileName="Assets/Scripts/LoadNewArea.cs" />
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemy.cs" />
-      <File FileName="Assets/Scripts/EnemyController/EnemyHealthManager.cs" />
-      <File FileName="Assets/Scripts/PlayerController/PlayerStats.cs" />
-      <File FileName="Assets/Scripts/PlayerController/PlayerController.cs" Line="80" Column="33" />
-      <File FileName="Assets/InventoryMaster/readme.txt" />
-      <File FileName="Assets/InventoryMaster/Scripts/ExampleScript/PlayerInventory.cs" />
-      <File FileName="Assets/InventoryMaster/Scripts/FirstPerson/FirstPersonController.cs" />
-      <File FileName="Assets/InventoryMaster/Scripts/Hotbar/Hotbar.cs" />
-      <File FileName="Assets/InventoryMaster/Scripts/Inventory/Inventory.cs" />
-      <File FileName="Assets/InventoryMaster/Scripts/Inventory/InventoryDesign.cs" />
-      <File FileName="Assets/InventoryMaster/Scripts/Inventory/StorageInventory.cs" />
-      <File FileName="Assets/InventoryMaster/Scripts/Inventory/InputManager.cs" />
-      <File FileName="Assets/Scripts/CameraController.cs" />
-      <File FileName="Assets/Scripts/EnemyController/HurtPlayer.cs" />
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/EnemyController/SlimeController.cs" />
-=======
-      <File FileName="Assets/Scripts/EnemyController/SlimeController.cs" Line="1" Column="1" />
->>>>>>> Kevin
-      <File FileName="Assets/Scripts/PlayerController/PLayerHealthController.cs" />
-      <File FileName="Assets/Scripts/ChangeSprite.cs" />
-      <File FileName="Assets/Scripts/PNGMovementController.cs" />
-      <File FileName="Assets/Scripts/PNGDialogue.cs" />
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/Antoine_movement.cs" Line="1" Column="1" />
-=======
->>>>>>> Kevin
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController/HurtEnemySpell.cs">
-    <Files>
-      <File FileName="Assets/Scripts/SpellController.cs" Line="72" Column="33" IsPinned="True" />
-      <File FileName="Assets/Scripts/PlayerController/PlayerController.cs" Line="149" Column="39" />
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemy.cs" Line="39" Column="77" />
-      <File FileName="Assets/Scripts/EnemyController/EnemyHealthManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DestroyOverTime.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemySpell.cs" Line="18" Column="45" />
->>>>>>> Kevin
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController/PlayerStats.cs">
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController/HurtEnemy.cs">
->>>>>>> Kevin
-    <Files>
-      <File FileName="Assets/Scripts/SpellController.cs" Line="78" Column="1" IsPinned="True" />
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemySpell.cs" />
-      <File FileName="Assets/Scripts/EnemyController/SlimeController.cs" Line="75" Column="1" />
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemy.cs" />
-      <File FileName="Assets/Scripts/EnemyController/EnemyHealthManager.cs" />
-      <File FileName="Assets/Scripts/DestroyOverTime.cs" />
-<<<<<<< HEAD
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemySpell.cs" Line="18" Column="17" />
-      <File FileName="Assets/Scripts/PlayerController/PlayerStats.cs" Line="1" Column="1" />
->>>>>>> Kevin
-=======
-      <File FileName="Assets/Scripts/PlayerController/PlayerStats.cs" />
-      <File FileName="Assets/Scripts/CameraController.cs" />
-      <File FileName="Assets/Scripts/PlayerController/PlayerController.cs" Line="205" Column="1" />
-      <File FileName="Assets/Scripts/PlayerController/HurtEnemy.cs" />
->>>>>>> Kevin
+      <File FileName="Assets/Scripts/SpellController.cs" Line="36" Column="10" />
+      <File FileName="Assets/Scripts/PlayerController/PlayerController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RPG" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="ColorPalletSwapper" expanded="True">
-                <Node name="ActionCode" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="InventoryMaster" expanded="True" />
               <Node name="Scripts" expanded="True">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <Node name="EnemyController" expanded="True" />
-                <Node name="PlayerController" expanded="True" />
-                <Node name="Antoine_movement.cs" selected="True" />
-=======
-                <Node name="EnemyController" expanded="True">
-                  <Node name="SlimeController.cs" selected="True" />
-                </Node>
-                <Node name="PlayerController" expanded="True" />
->>>>>>> Kevin
-=======
-                <Node name="EnemyController" expanded="True" />
                 <Node name="PlayerController" expanded="True">
-                  <Node name="HurtEnemy.cs" selected="True" />
+                  <Node name="PlayerController.cs" selected="True" />
                 </Node>
->>>>>>> Kevin
               </Node>
             </Node>
           </Node>
@@ -109,23 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="29462167-7b6e-42c6-9f68-dde790f791a8" />
-=======
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9571bed0-971e-4d5d-a6a5-3773640bf76f" />
->>>>>>> Kevin
-=======
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1abc05f9-1bfb-4103-9471-82a2e761a3c9" />
->>>>>>> Kevin
-=======
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="01e0fcb1-3643-476e-b7ec-20114d5e1822" />
->>>>>>> Kevin
-=======
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3850aba7-38bd-40f6-b118-aa64788d8b77" />
->>>>>>> Kevin
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5721376f-486a-4060-89cc-b9f0eb15b2a2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

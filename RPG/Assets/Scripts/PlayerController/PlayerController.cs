@@ -32,7 +32,9 @@ public class PlayerController : MonoBehaviour
     private SpellController spellcontroller;
     public GameObject fireball;
     public GameObject fireballPurple;
-    
+    public GameObject fireballRock;
+
+
     //on récupère les formes dessinées
     private Mouvement dessin;
     string forme;
@@ -222,10 +224,35 @@ public class PlayerController : MonoBehaviour
             timerBoule = 300;
             forme = "Mauvaise forme";
             }
-        
 
-        
-        
+        //Spell 3 :
+
+        if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.K))
+        {
+            float z = 0f;
+
+            if (lastMove.x > 0.5f)
+            {
+                z = 180f;
+            }
+
+            if (lastMove.x < -0.5f)
+            {
+                z = 0f;
+            }
+
+            if (Mathf.Abs(lastMove.y) > 0.5f)
+            {
+                z = lastMove.y * (-90f);
+            }
+
+            Vector3 EulerRotation = new Vector3(0f, 0f, z);
+            Instantiate(fireballRock, myRigidBody.position, Quaternion.Euler(EulerRotation));
+            timerBoule = 300;
+            forme = "Mauvaise forme";
+        }
+
+
 
 
         if (hurtEffectTimeCounter > 0.66f * hurtEffectTime )
