@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public GameObject fireball;
     public GameObject fireballPurple;
     public GameObject fireballRock;
+    public GameObject fireballWater;
+    public GameObject fireballAir;
 
 
     //on récupère les formes dessinées
@@ -225,7 +227,7 @@ public class PlayerController : MonoBehaviour
             forme = "Mauvaise forme";
             }
 
-        //Spell 3 :
+        //Spell rock :
 
         if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.K))
         {
@@ -248,6 +250,60 @@ public class PlayerController : MonoBehaviour
 
             Vector3 EulerRotation = new Vector3(0f, 0f, z);
             Instantiate(fireballRock, myRigidBody.position, Quaternion.Euler(EulerRotation));
+            timerBoule = 300;
+            forme = "Mauvaise forme";
+        }
+
+        //Spell water :
+
+        if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.L))
+        {
+            float z = 0f;
+
+            if (lastMove.x > 0.5f)
+            {
+                z = 180f;
+            }
+
+            if (lastMove.x < -0.5f)
+            {
+                z = 0f;
+            }
+
+            if (Mathf.Abs(lastMove.y) > 0.5f)
+            {
+                z = lastMove.y * (-90f);
+            }
+
+            Vector3 EulerRotation = new Vector3(0f, 0f, z);
+            Instantiate(fireballWater, myRigidBody.position, Quaternion.Euler(EulerRotation));
+            timerBoule = 300;
+            forme = "Mauvaise forme";
+        }
+
+        //Spell air :
+
+        if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.M))
+        {
+            float z = 0f;
+
+            if (lastMove.x > 0.5f)
+            {
+                z = 180f;
+            }
+
+            if (lastMove.x < -0.5f)
+            {
+                z = 0f;
+            }
+
+            if (Mathf.Abs(lastMove.y) > 0.5f)
+            {
+                z = lastMove.y * (-90f);
+            }
+
+            Vector3 EulerRotation = new Vector3(0f, 0f, z);
+            Instantiate(fireballAir, myRigidBody.position, Quaternion.Euler(EulerRotation));
             timerBoule = 300;
             forme = "Mauvaise forme";
         }

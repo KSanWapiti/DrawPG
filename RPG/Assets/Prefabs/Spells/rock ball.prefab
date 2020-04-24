@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 2526370935797273651}
   - component: {fileID: 428812693013482992}
   - component: {fileID: 1678637612864161443}
-  - component: {fileID: 7548445691132330316}
   m_Layer: 0
-  m_Name: rock ball
+  m_Name: Rock Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 335124177209083865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3454854197869835197}
   - {fileID: 9095255605383280718}
@@ -115,25 +114,6 @@ MonoBehaviour:
   damageDisplay: {fileID: 7336829232458621496, guid: 5fc671221bbaa4a90ac15e7d112f732d,
     type: 3}
   stunTime: 0
---- !u!95 &7548445691132330316
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 335124177209083865}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b87d125111d9f4f40917490c932d1a2d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4338855950163132746
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +204,7 @@ Animator:
   m_GameObject: {fileID: 4338855950163132746}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 354f6a283d7974050934ff455e224ff8, type: 2}
+  m_Controller: {fileID: 9100000, guid: eade7fd3080584d8691c866760493d64, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -253,7 +233,7 @@ PrefabInstance:
     - target: {fileID: 927814519953843505, guid: 36c8e2aa33fd649f4b94dcca14f83fd5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.32
+      value: -1.44
       objectReference: {fileID: 0}
     - target: {fileID: 927814519953843505, guid: 36c8e2aa33fd649f4b94dcca14f83fd5,
         type: 3}

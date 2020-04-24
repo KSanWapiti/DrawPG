@@ -124,7 +124,11 @@ MonoBehaviour:
   fireball: {fileID: 335124177209083865, guid: 72a32497be6c143f597b6c3d82e52961, type: 3}
   fireballPurple: {fileID: 335124177209083865, guid: 86b32d5d58586492590665dd64ad2782,
     type: 3}
-  fireballRock: {fileID: 335124177209083865, guid: 1de7238bc0bc44185b0bf69864393b0d,
+  fireballRock: {fileID: 335124177209083865, guid: d95b39a2ae49749e99831de404a11dee,
+    type: 3}
+  fireballWater: {fileID: 335124177209083865, guid: 6833ce9be550240a192eb30d13861b43,
+    type: 3}
+  fireballAir: {fileID: 335124177209083865, guid: cdedb4c6a86cc4f74bc15524e3cf47b7,
     type: 3}
 --- !u!114 &107079652585122352
 MonoBehaviour:
