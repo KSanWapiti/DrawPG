@@ -14,7 +14,7 @@ public class Mouvement : MonoBehaviour
     public int positionYnormee;
 
 
-
+    
 
     class variations
     {
@@ -54,7 +54,7 @@ public class Mouvement : MonoBehaviour
     Collection<variations> mur2 = new Collection<variations>();
     Collection<variations> mur3 = new Collection<variations>();
     Collection<variations> mur4 = new Collection<variations>();
-    Collection<variations> attaque = new Collection<variations>();
+    Collection<variations> defense = new Collection<variations>();
     public string dessinEffectué;
     public string dessinRenvoyé;
     public string dessin(){
@@ -68,18 +68,18 @@ void Start()
         dessinRenvoyé = "Mauvaise forme";
         //on initialise les différentes formes avec les conditions de lancement
         boule.Add(droite);boule.Add(bas);boule.Add(gauche);boule.Add(haut); 
-        attaque.Add(droite); attaque.Add(bas); attaque.Add(droite); attaque.Add(bas);
+        defense.Add(droite); defense.Add(bas); defense.Add(droite); defense.Add(bas);
         mur1.Add(droite); mur1.Add(droite); mur1.Add(droite); mur1.Add(droite);
         mur2.Add(gauche); mur2.Add(gauche); mur2.Add(gauche); mur2.Add(gauche);
         mur3.Add(haut); mur3.Add(haut); mur3.Add(haut); mur3.Add(haut);
         mur4.Add(bas); mur4.Add(bas); mur4.Add(bas); mur4.Add(bas);
 
         //on initialise la collection qui permettra de renvoyer la forme du sort lancé
-        formesDispo.Add("boule"); formesDispo.Add("attaque"); formesDispo.Add("mur");
+        formesDispo.Add("boule"); formesDispo.Add("defense"); formesDispo.Add("mur");
         formesDispo.Add("mur"); formesDispo.Add("mur"); formesDispo.Add("mur");
 
         //on initialise la collection qui permet de reconnaitre les formes
-        formesIdentifiées.Add(boule); formesIdentifiées.Add(attaque); formesIdentifiées.Add(mur1);
+        formesIdentifiées.Add(boule); formesIdentifiées.Add(defense); formesIdentifiées.Add(mur1);
         formesIdentifiées.Add(mur2); formesIdentifiées.Add(mur3); formesIdentifiées.Add(mur4);
 
         print("ça lance");
@@ -144,12 +144,12 @@ void Start()
                 }
                 if ( formeDessinee.Count>3)
                 {
-                    print("assez long");
+                    //print("assez long");
                     foreach (Collection<variations> formes in formesIdentifiées)
                     {
                         if (dessin2!="Mauvaise forme")
                         {
-                            print("forme reconnue");
+                            //print("forme reconnue");
                             break;
                         }
                         for (int i=0; i <= 3; i++)
@@ -168,7 +168,7 @@ void Start()
 
                         }
                     }
-                    print(dessinEffectué);
+                    //print(dessinEffectué);
                     formeDessinee = new Collection<variations>();
                 }
 

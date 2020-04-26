@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.ObjectModel;
 
 
 public class PlayerController : MonoBehaviour
@@ -18,8 +19,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D myRigidBody;
 
     private static bool playerExists;
-    private int timerBoule;
-    private int timerMur;
+    Collection<timer> timers = new Collection<timer>();
+    
 
     public float attackSpeed;
     private float attackSpeedCounter;
@@ -32,7 +33,13 @@ public class PlayerController : MonoBehaviour
     private SpellController spellcontroller;
     public GameObject fireball;
     public GameObject fireballPurple;
-    
+    private string élément;
+    private string SortLancé;
+    private string timerSortLancé;
+    timer timerBoule = new timer("timerboule", 0);
+    timer timerMur = new timer("timermur", 0);
+    timer timerDefense = new timer("timerdefense", 0);
+
     //on récupère les formes dessinées
     private Mouvement dessin;
     string forme;
@@ -40,18 +47,68 @@ public class PlayerController : MonoBehaviour
     //To show text in chat
     private DialogueManager text;
     private int z;
-    public int decompte(int t)
+    class timer
     {
-        if (t != 0)
+        string nom;
+        int temps;
+        public timer(string n,int t)
         {
-            t = t - 1;
-            return (t);
+            this.nom = n;
+            this.temps = t;
         }
-        return (t);
+        public bool ifNom(string n)
+        {
+            if (this.nom == n)
+            {
+                return true;
+            }
+            return false;
+        }
+        public bool ifTemps()
+        {
+            if (this.temps == 0)
+            {
+                return true;
+            }
+            return false;
+        }
+        public void decompte()
+        {
+            if (this.temps != 0)
+            {
+                temps = temps - 1;
+            }
+        }
+        public void setTimer(int t)
+        {
+            this.temps = t;
+        }
+        public void display()
+        {
+            print("nom: "+this.nom + " et timer: " + this.temps);
+        }
+    }
+
+    private bool verifSort(string f)
+    {
+        foreach (timer chargement in timers)
+        {
+            if (chargement.ifNom(f))
+            {
+                if (chargement.ifTemps())
+                {
+                    chargement.setTimer(300);
+                    return true;
+                }
+            }
+        }
+        return false;
     }
     // Start is called before the first frame update
     void Start()
     {
+
+        timers.Add(timerBoule);timers.Add(timerMur);timers.Add(timerDefense);
         z = 0;
         spellcontroller = FindObjectOfType<SpellController>();
         dessin = FindObjectOfType<Mouvement>();
@@ -65,10 +122,8 @@ public class PlayerController : MonoBehaviour
 
 
         }
-
+        élément = "feu";
         walkSpeedDiag = walkSpeed * diviseurDiagMouvement;
-        timerBoule = 0;
-        timerMur = 0;
         spriteRenderer = GetComponent<SpriteRenderer>();
         forme = dessin.dessinRenvoyé;
         formeActuelle = forme;
@@ -147,9 +202,30 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("PositionX", lastMove.x);
         anim.SetFloat("PositionY", lastMove.y);
 
+        if (Input.GetKeyUp(KeyCode.Alpha1))
+        {
+            élément = "feu";
+        }
         
+        if (Input.GetKeyUp(KeyCode.Alpha2))
+        {
+            élément = "eau";
+        }
+        
+        if (Input.GetKeyUp(KeyCode.Alpha3))
+        {
+            élément = "vent";
+        }
+
+        if (Input.GetKeyUp(KeyCode.Alpha4))
+        {
+            élément = "terre";
+        }
+
         // Attack Controller
-            //Basic Attack
+        //Basic Attack
+
+
 
         if (Input.GetKeyUp(KeyCode.J))
         {
@@ -165,12 +241,48 @@ public class PlayerController : MonoBehaviour
         //print("forme récupérée");
         text = FindObjectOfType<DialogueManager>();
 
-        timerMur=decompte(timerMur);
-        timerBoule=decompte(timerBoule);
-        //print("timerMur =" + timerMur);
-        //print("timerBoule =" + timerBoule);
+        foreach (timer chargement in timers)
+        {
+            chargement.decompte();
+        }
+
+
+
+        timerSortLancé = "timer" + forme;
+        //print("timerSortLancé =" + timerSortLancé);
+        //print(verifSort(timerSortLancé));
+        //timerBoule.display();
+        //timerMur.display();
+
+        if (verifSort(timerSortLancé)) //si le sort se lance, le temps de chargement de 5 secondes est automatiquement lancé
+            {
+            SortLancé = forme + " de " + élément;
+                float z = 0f;
+
+                if (lastMove.x > 0.5f)
+                {
+                    z = 180f;
+                }
+
+                if (lastMove.x < -0.5f)
+                {
+                    z = 0f;
+                }
+
+                if (Mathf.Abs(lastMove.y) > 0.5f)
+                {
+                    z = lastMove.y * (-90f);
+                }
+
+                Vector3 EulerRotation = new Vector3(0f, 0f, z);
+                Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation));
+            forme = "Mauvaise forme";
+
+            }
+        /*
         if (forme == "mur" && timerMur==0)
             {
+                
                 float z = 0f;
 
                 if (lastMove.x > 0.5f)
@@ -222,7 +334,7 @@ public class PlayerController : MonoBehaviour
             timerBoule = 300;
             forme = "Mauvaise forme";
             }
-        
+        */
 
         
         
