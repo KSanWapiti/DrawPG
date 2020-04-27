@@ -31,13 +31,19 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private SpellController spellcontroller;
-    public GameObject fireball;
+    public GameObject bouledefeu;
     public GameObject fireballPurple;
-    public GameObject fireballRock;
-    public GameObject fireballWater;
-    public GameObject fireballAir;
-
-
+    public GameObject bouledeterre;
+    public GameObject bouledeeau;
+    public GameObject bouledevent;
+    Collection<string> nomSorts = new Collection<string>();
+    Collection<GameObject> sorts = new Collection<GameObject>();
+    /*Collection<sort> sorts = new Collection<sort>();
+    public sort fireball=new sort(bouledefeu,"bouledefeu");
+    public sort fireballP = new sort(fireballPurple,"fireballPurple");
+    public sort Rockball=new sort(bouledeterre,"bouledeterre");
+    public sort Waterball=new sort(bouledeeau,"bouledeeau");
+    public sort Windball=new sort(bouledevent,"bouledevent");*/
     //on récupère les formes dessinées
     private Mouvement dessin;
     private string élément;
@@ -46,14 +52,34 @@ public class PlayerController : MonoBehaviour
     timer timerBoule = new timer("timerboule", 0);
     timer timerMur = new timer("timermur", 0);
     timer timerDefense = new timer("timerdefense", 0);
+   
 
-    //on récupère les formes dessinées
-    private Mouvement dessin;
     string forme;
     string formeActuelle;
     //To show text in chat
     private DialogueManager text;
     private int z;
+    /*public class sort
+    {
+        public GameObject Go;
+        public string nom;
+        public sort(GameObject game, string n)
+        {
+            this.Go = game;
+            this.nom = n;
+        }
+    }*/
+    public int sortAssocié(string SL)
+    {
+        foreach (string S in nomSorts)
+        {
+            if (S == SL)
+            {
+                return nomSorts.IndexOf(S);
+            }
+        }
+        return 4;
+    }
     class timer
     {
         string nom;
@@ -114,7 +140,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        sorts.Add(bouledefeu);sorts.Add(bouledeeau);sorts.Add(bouledeterre);sorts.Add(bouledevent); sorts.Add(fireballPurple);
+        nomSorts.Add("bouledefeu"); nomSorts.Add("bouledeeau"); nomSorts.Add("bouledeterre"); nomSorts.Add("bouledevent");nomSorts.Add("fireballPurple");
         timers.Add(timerBoule);timers.Add(timerMur);timers.Add(timerDefense);
         z = 0;
         spellcontroller = FindObjectOfType<SpellController>();
@@ -260,10 +287,11 @@ public class PlayerController : MonoBehaviour
         //print(verifSort(timerSortLancé));
         //timerBoule.display();
         //timerMur.display();
+        
 
         if (verifSort(timerSortLancé)) //si le sort se lance, le temps de chargement de 5 secondes est automatiquement lancé
             {
-            SortLancé = forme + " de " + élément;
+            SortLancé = forme + "de" + élément;
                 float z = 0f;
 
                 if (lastMove.x > 0.5f)
@@ -282,7 +310,8 @@ public class PlayerController : MonoBehaviour
                 }
 
                 Vector3 EulerRotation = new Vector3(0f, 0f, z);
-                Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation));
+                //print(sortAssocié(SortLancé).ToString());
+                Instantiate(sorts[sortAssocié(SortLancé)], myRigidBody.position, Quaternion.Euler(EulerRotation));
             forme = "Mauvaise forme";
 
             }
