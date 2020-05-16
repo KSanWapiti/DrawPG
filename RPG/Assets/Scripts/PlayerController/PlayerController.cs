@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private bool moving;
 
+    public string StartPoint;
 
     private Animator anim;
     public Vector2 lastMove;
