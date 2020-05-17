@@ -7,7 +7,8 @@ public class PlayerStartPoint : MonoBehaviour
 
     private PlayerController thePlayer;
     private CameraController theCamera;
-
+    public Vector2 face;
+    public string PointName;
 
     // Start is called before the first frame update
     void Start()
@@ -15,14 +16,15 @@ public class PlayerStartPoint : MonoBehaviour
         
 
         thePlayer = FindObjectOfType<PlayerController>();
-        thePlayer.transform.position = transform.position;
-        thePlayer.lastMove.x = 0f;
-        thePlayer.lastMove.y = 1f;
 
+        if (thePlayer.StartPoint == PointName)
+        {
+            thePlayer.transform.position = transform.position;
+            thePlayer.lastMove= face;
 
-        theCamera = FindObjectOfType<CameraController>();
-        theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
-
+            theCamera = FindObjectOfType<CameraController>();
+            theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
+        }
 
     }
 

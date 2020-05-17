@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float walkSpeed;
     private float walkSpeedDiag;
     public float diviseurDiagMouvement;
-
+    public string StartPoint;
     private bool moving;
 
 
