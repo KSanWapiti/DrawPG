@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5676807727806762130}
   - component: {fileID: 5676807727806762129}
   - component: {fileID: 1756697340799306264}
+  - component: {fileID: 4287826962100145372}
   - component: {fileID: 5676807727806762131}
   - component: {fileID: 107079652585122352}
   - component: {fileID: 8086466698597158595}
@@ -104,6 +105,21 @@ MonoBehaviour:
   xpArray: 000000000a000000140000003200000064000000c8000000f401000010270000204e000030750000
   lvlEffect: {fileID: 437634102842983662, guid: 096d4766ba61541e8ae66e17586c53e4,
     type: 3}
+--- !u!114 &4287826962100145372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5676807727806762128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755739e82ab6e104aaeb959d8068d889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  bubble: {fileID: 0}
+  time: 0
 --- !u!114 &5676807727806762131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,18 +134,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 10
   diviseurDiagMouvement: 0.75
+  StartPoint: 
   lastMove: {x: 0, y: 0}
   attackSpeed: 0.05
   hurtEffectTime: 0.3
-  fireball: {fileID: 335124177209083865, guid: 72a32497be6c143f597b6c3d82e52961, type: 3}
+  bouledefeu: {fileID: 0}
   fireballPurple: {fileID: 335124177209083865, guid: 86b32d5d58586492590665dd64ad2782,
     type: 3}
-  fireballRock: {fileID: 335124177209083865, guid: d95b39a2ae49749e99831de404a11dee,
-    type: 3}
-  fireballWater: {fileID: 335124177209083865, guid: 6833ce9be550240a192eb30d13861b43,
-    type: 3}
-  fireballAir: {fileID: 335124177209083865, guid: cdedb4c6a86cc4f74bc15524e3cf47b7,
-    type: 3}
+  bouledeterre: {fileID: 0}
+  bouledeeau: {fileID: 0}
+  bouledevent: {fileID: 0}
 --- !u!114 &107079652585122352
 MonoBehaviour:
   m_ObjectHideFlags: 0
