@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 164732056874915531}
   - component: {fileID: 164732056874915528}
+  - component: {fileID: 7933155121788429572}
+  - component: {fileID: 4171922516959989403}
   - component: {fileID: 164732056874915529}
   - component: {fileID: 164732056874915575}
   m_Layer: 0
@@ -75,6 +77,39 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &7933155121788429572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164732056874915572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d143c1eb75556ff4ba4a8ffbc2b66724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linePrefab: {fileID: 0}
+  currentLine: {fileID: 0}
+  Camera: {fileID: 0}
+--- !u!114 &4171922516959989403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164732056874915572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29fdf1819f702cc44aeb0fd4774171b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linePrefab: {fileID: 0}
+  currentLine: {fileID: 0}
+  lineRenderer: {fileID: 0}
+  edgeCollider: {fileID: 0}
+  fingerPositions: []
+  Camera: {fileID: 0}
 --- !u!81 &164732056874915529
 AudioListener:
   m_ObjectHideFlags: 0

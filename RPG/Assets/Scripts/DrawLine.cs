@@ -32,7 +32,7 @@ public class DrawLine : MonoBehaviour
             Vector2 CameraPosition= Camera.position;
             float Xmilieu= Screen.width/2;
             float Ymilieu= Screen.height/2;
-            Vector2 tempFingerPos = new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*22,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*12);
+            Vector2 tempFingerPos = new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*25,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*11.4f);
             if (Vector2.Distance(tempFingerPos, fingerPositions[fingerPositions.Count - 1]) > .1f)
             {
                 UpdateLine(tempFingerPos);
@@ -47,12 +47,13 @@ public class DrawLine : MonoBehaviour
         Vector2 CameraPosition= Camera.position;
         float Xmilieu= Screen.width/2;
         float Ymilieu= Screen.height/2;
-        currentLine = Instantiate(linePrefab, Vector3.zero, Quaternion.identity);
+        currentLine = Instantiate(linePrefab, new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*25,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*11.4f), Quaternion.identity);
         lineRenderer = currentLine.GetComponent<LineRenderer>();
         fingerPositions.Clear();
-        fingerPositions.Add(new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*22,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*12));
+        fingerPositions.Add(new Vector2 (CameraPosition.x+(Input.mousePosition.x-Xmilieu)/Screen.width*25,CameraPosition.y+(Input.mousePosition.y-Ymilieu)/Screen.height*11.4f));
 
         lineRenderer.SetPosition(0, fingerPositions[0]);
+        lineRenderer.SetPosition(1, fingerPositions[0]);
     }
 
 
@@ -61,6 +62,7 @@ public class DrawLine : MonoBehaviour
         fingerPositions.Add(newFingerPos);
         lineRenderer.positionCount++;
         lineRenderer.SetPosition(lineRenderer.positionCount - 1, newFingerPos);
+
 
     }
 
