@@ -41,7 +41,8 @@ public class Mouvement : MonoBehaviour
             print((x, y));
         }
     }
-
+    
+    // Les formes dessinées sont identifiées par des variations "haut" "bas" "gauche" "droite".
     variations haut = new variations(0, 1);
     variations bas = new variations(0, -1);
     variations gauche = new variations(-1, 0);
@@ -96,7 +97,7 @@ void Start()
     {
         string dessin2 = "Mauvaise forme";
         //print(dessinEffectué);
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))    // Le tracé commence dès que le click Gauche est enfoncé et s'arrête quand le boutton est relaché.
         {
             Vector3 mouseInScreen = Input.mousePosition;
             positionXPrecedentNormee = (int)Mathf.Floor(mouseInScreen.x / tailleCarreauX);
