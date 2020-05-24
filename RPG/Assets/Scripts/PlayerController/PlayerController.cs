@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D myRigidBody;
 
     private static bool playerExists;
-    Collection<timer> timers = new Collection<timer>();
     
 
     public float attackSpeed;
@@ -30,46 +29,51 @@ public class PlayerController : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    
+    string forme; //variable qui désigne la forme dessinée 
+
+    // on initialise maintenant les différents sorts disponibles :
     private SpellController spellcontroller;
     public GameObject bouledefeu;
-    public GameObject fireballPurple;
     public GameObject bouledeterre;
     public GameObject bouledeeau;
     public GameObject bouledevent;
-    Collection<string> nomSorts = new Collection<string>();
-    Collection<GameObject> sorts = new Collection<GameObject>();
-    /*Collection<sort> sorts = new Collection<sort>();
-    public sort fireball=new sort(bouledefeu,"bouledefeu");
-    public sort fireballP = new sort(fireballPurple,"fireballPurple");
-    public sort Rockball=new sort(bouledeterre,"bouledeterre");
-    public sort Waterball=new sort(bouledeeau,"bouledeeau");
-    public sort Windball=new sort(bouledevent,"bouledevent");*/
-    //on récupère les formes dessinées
-    private Mouvement dessin;
-    private string élément;
-    private string SortLancé;
-    private string timerSortLancé;
-    timer timerBoule = new timer("timerboule", 0);
-    timer timerMur = new timer("timermur", 0);
-    timer timerDefense = new timer("timerdefense", 0);
-   
+    public GameObject None;
 
-    string forme;
-    string formeActuelle;
+    // on crée deux collections qui nous permettront de simplifier le programme par la suite
+    Collection<string> nomSorts = new Collection<string>(); //contient les noms des sorts utilisables
+    Collection<GameObject> sorts = new Collection<GameObject>();//contient les GameObjects des sorts utilisables
+    
+    //on récupère les formes dessinées
+    private Mouvement dessin; //on fait appel au script mouvement qui permet la reconnaissance des formes
+    private string élément; //ce string permet de suivre l'élément utilisé
+    private string SortLancé; //permet d'avoir le nom du sort lancé
+    private string timerSortLancé; //traduit l'état du temps de chargement du sort qui est en train d'être lancé
+    
+    // on initialise les timer des 3 formes utilisables :
+    timer timerBoule = new timer("timerboule", 0); 
+    timer timerbouclier = new timer("timerbouclier", 0);
+    timer timerDefense = new timer("timerdefense", 0);
+
+    
+    Collection<timer> timers = new Collection<timer>(); //permet de garder une trace de tous les timers utilisés, et de les gérer en même temps
+
+
+    //on initialise les variables nécessaires au fonctionnement du sort bouclier
+    public GameObject player;
+    public GameObject bubble;
+    public float time; //variable décrivant la durée du bouclier
+    private float duréeBouclier; //variable fixe qui contient la durée prédéfinie du sort 
+    private bool etatBouclier; //état du bouclier, actif correspondant à True et inactif correspondant à False
+    private SpriteRenderer spriteBouclier;
+
+
+
     //To show text in chat
     private DialogueManager text;
     private int z;
-    /*public class sort
-    {
-        public GameObject Go;
-        public string nom;
-        public sort(GameObject game, string n)
-        {
-            this.Go = game;
-            this.nom = n;
-        }
-    }*/
-    public int sortAssocié(string SL)
+
+    public int sortAssocié(string SL) //à partir du nom d'un sort donné en entrée, renvoie le GameObject du sort associé. 
     {
         foreach (string S in nomSorts)
         {
@@ -78,18 +82,18 @@ public class PlayerController : MonoBehaviour
                 return nomSorts.IndexOf(S);
             }
         }
-        return 4;
+        return 4; //on renvoie le rang correspondant à None, pour n'envoyer aucun sort en cas d'erreur, ou de sort introuvable.
     }
-    class timer
+    class timer // cette classe sert à mesurer les temps de chargements des formes utilisées
     {
-        string nom;
+        string nom; 
         int temps;
-        public timer(string n,int t)
+        public timer(string n,int t) // la classe permet d'associer un temps entier à une forme donnée
         {
             this.nom = n;
             this.temps = t;
         }
-        public bool ifNom(string n)
+        public bool ifNom(string n) // vérife si la forme est bien celle donnée par "n"
         {
             if (this.nom == n)
             {
@@ -97,7 +101,7 @@ public class PlayerController : MonoBehaviour
             }
             return false;
         }
-        public bool ifTemps()
+        public bool ifTemps() // vérifie si le temps de chargement est nul ou pas
         {
             if (this.temps == 0)
             {
@@ -105,24 +109,26 @@ public class PlayerController : MonoBehaviour
             }
             return false;
         }
-        public void decompte()
+        public void decompte() // met à jour le temps de chargement
         {
             if (this.temps != 0)
             {
                 temps = temps - 1;
             }
         }
-        public void setTimer(int t)
+        public void setTimer(int t) // initialise le temps de chargement à une certaine valeur
         {
             this.temps = t;
         }
-        public void display()
+        public void display() // affiche le nom de la forme et son temps de chargment restant (en nombre d'images restantes)
         {
             print("nom: "+this.nom + " et timer: " + this.temps);
         }
     }
 
-    private bool verifSort(string f)
+
+
+    private bool verifSort(string f) //vérifie si une forme est utilisable ou pas en fonction de son temps de chargement
     {
         foreach (timer chargement in timers)
         {
@@ -130,22 +136,24 @@ public class PlayerController : MonoBehaviour
             {
                 if (chargement.ifTemps())
                 {
-                    chargement.setTimer(300);
+                    chargement.setTimer(300); //si le sort est bien lançable, initialise son temps de chargement à 300 images, ce qui correspond à 5 secondes puisque le jeu tourne à 60 images/seconde
                     return true;
                 }
             }
         }
         return false;
     }
+
+
     // Start is called before the first frame update
     void Start()
     {
-        sorts.Add(bouledefeu);sorts.Add(bouledeeau);sorts.Add(bouledeterre);sorts.Add(bouledevent); sorts.Add(fireballPurple);
-        nomSorts.Add("bouledefeu"); nomSorts.Add("bouledeeau"); nomSorts.Add("bouledeterre"); nomSorts.Add("bouledevent");nomSorts.Add("fireballPurple");
-        timers.Add(timerBoule);timers.Add(timerMur);timers.Add(timerDefense);
+        sorts.Add(bouledefeu);sorts.Add(bouledeeau);sorts.Add(bouledeterre);sorts.Add(bouledevent);  sorts.Add(None); //on remplit la liste de GameObjects des sorts utilisables
+        nomSorts.Add("bouledefeu"); nomSorts.Add("bouledeeau"); nomSorts.Add("bouledeterre"); nomSorts.Add("bouledevent");nomSorts.Add("None"); // on remplit la liste des noms des sorts utilsables
+        timers.Add(timerBoule);timers.Add(timerbouclier);timers.Add(timerDefense); //on remplit la liste des timers avec les timers des différentes formes
         z = 0;
         spellcontroller = FindObjectOfType<SpellController>();
-        dessin = FindObjectOfType<Mouvement>();
+        dessin = FindObjectOfType<Mouvement>(); // on lance le script Mouvement
         if (!playerExists)
         {
             playerExists = true;
@@ -153,14 +161,16 @@ public class PlayerController : MonoBehaviour
         } else
         {
             Destroy(gameObject);
-
-
         }
-        élément = "feu";
+        élément = "feu"; // on initialise l'élément utilisé à feu, le choix est arbitraire
         walkSpeedDiag = walkSpeed * diviseurDiagMouvement;
         spriteRenderer = GetComponent<SpriteRenderer>();
-        forme = dessin.dessinRenvoyé;
-        formeActuelle = forme;
+        forme = dessin.dessinRenvoyé; //on récupère la variable "dessinRenvoyé" du script Mouvement
+        
+        duréeBouclier = time; //on initialise la variable duréeBouclier
+        bubble.SetActive(false); //le bouclier est initialement désactivé
+        etatBouclier = false; //la variable traduisant l'etat du bouclier est initialisée sur false pour signifier qu'il est désactivé
+        spriteBouclier = bubble.GetComponent<SpriteRenderer>(); //on récupère le sprite du bouclier
     }
 
     // Update is called once per frame
@@ -236,6 +246,8 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("PositionX", lastMove.x);
         anim.SetFloat("PositionY", lastMove.y);
 
+
+        // les éléments feu, eau, vent et terre sont activables respectivement avec les touches 1,2,3 et 4 :
         if (Input.GetKeyUp(KeyCode.Alpha1))
         {
             élément = "feu";
@@ -256,42 +268,42 @@ public class PlayerController : MonoBehaviour
             élément = "terre";
         }
 
+
+
         // Attack Controller
         //Basic Attack
-
-
-
-        if (Input.GetKeyUp(KeyCode.J))
+        if (Input.GetMouseButtonUp(1)) //le bouton droit de la souris permet d'effectuer des attaques à l'épée
         {
             //attackState = true;
             attackSpeedCounter = attackSpeed;
             anim.SetBool("Attacking", true);
-            
         }
+
+
+        text = FindObjectOfType<DialogueManager>();
+
+
         //try { forme = dessin.dessin(); } catch (System.Exception e) { print(e); }
         //Spell 1 :
 
-        forme = dessin.dessin();
+        forme = dessin.dessin(); //on met à jour la variable "forme" en récupérant le résultat du script Mouvement via sa fonction dessin()
         //print("forme récupérée");
-        text = FindObjectOfType<DialogueManager>();
 
+
+        // on met à jour les timers de toutes les formes :
         foreach (timer chargement in timers)
         {
             chargement.decompte();
         }
 
 
-
+        //on récupère le nom du timer de la forme qui a été dessinée 
         timerSortLancé = "timer" + forme;
         //print("timerSortLancé =" + timerSortLancé);
         //print(verifSort(timerSortLancé));
-        //timerBoule.display();
-        //timerMur.display();
-        
-
         if (verifSort(timerSortLancé)) //si le sort se lance, le temps de chargement de 5 secondes est automatiquement lancé
             {
-            SortLancé = forme + "de" + élément;
+            SortLancé = forme + "de" + élément; //on récupère le nom du sort à lancer
                 float z = 0f;
 
                 if (lastMove.x > 0.5f)
@@ -308,176 +320,61 @@ public class PlayerController : MonoBehaviour
                 {
                     z = lastMove.y * (-90f);
                 }
-
+                if (forme == "bouclier")// si jamais la forme lancée est le bouclier, il faut l'activer en rendant l'état true et changer sa couleur en l'élément correspondant
+                {
+                    if (élément=="vent")
+                        {
+                            bubble.SetActive(true);
+                            spriteBouclier.color = new Color(1, 1, 1, 1);
+                            etatBouclier = true;
+                        }
+                    if (élément == "terre")
+                        {
+                            bubble.SetActive(true);
+                            spriteBouclier.color = new Color(1, 0.5f, 0, 1);
+                            etatBouclier = true;
+                        }
+                    if (élément == "eau")
+                        {
+                            bubble.SetActive(true);
+                            spriteBouclier.color = new Color(0, 0.7f, 1, 1);
+                            etatBouclier = true;
+                        }
+                    if (élément == "feu")
+                        {
+                            bubble.SetActive(true);
+                            spriteBouclier.color = new Color(1, 0, 0, 1);
+                            etatBouclier = true;
+                        }
+                forme = "Mauvaise forme";
+            }
                 Vector3 EulerRotation = new Vector3(0f, 0f, z);
                 //print(sortAssocié(SortLancé).ToString());
                 Instantiate(sorts[sortAssocié(SortLancé)], myRigidBody.position, Quaternion.Euler(EulerRotation));
-            forme = "Mauvaise forme";
-
-            }
-        /*
-        if (forme == "mur" && timerMur==0)
-            {
-                
-                float z = 0f;
-
-                if (lastMove.x > 0.5f)
-                {
-                    z = 180f;
-                }
-
-                if (lastMove.x < -0.5f)
-                {
-                    z = 0f;
-                }
-
-                if (Mathf.Abs(lastMove.y) > 0.5f)
-                {
-                    z = lastMove.y * (-90f);
-                }
-
-                Vector3 EulerRotation = new Vector3(0f, 0f, z);
-                Instantiate(fireball, myRigidBody.position, Quaternion.Euler(EulerRotation));
-            timerMur = 300;
-            forme = "Mauvaise forme";
-
+                //Le sort est lancé, en récupérant son GameObject grâce à la correspondance des deux collections sorts et nomSorts 
+            forme = "Mauvaise forme"; //on réinitialise la variable forme à son état initial
             }
 
-            //Spell 2 :
+        bubble.transform.position = player.transform.position; //la position du bouclier est mise à jour sur la position du personnage joueur, pour qu'il le suive
 
-
-        if (forme == "boule" && timerBoule==0)
-            {
-                float z = 0f;
-
-                if (lastMove.x > 0.5f)
-                {
-                    z = 180f;
-                }
-
-                if (lastMove.x < -0.5f)
-                {
-                    z = 0f;
-                }
-
-                if (Mathf.Abs(lastMove.y) > 0.5f)
-                {
-                    z = lastMove.y * (-90f);
-                }
-
-                Vector3 EulerRotation = new Vector3(0f, 0f, z);
-                Instantiate(fireballPurple, myRigidBody.position, Quaternion.Euler(EulerRotation));
-            timerBoule = 300;
-            forme = "Mauvaise forme";
-            }
-
-        //Spell rock :
-
-        if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.K))
+        //si le bouclier est toujours actif, on vérifie si il faut le désactiver en regardant son temps d'activité restant
+        if (etatBouclier)
         {
-            float z = 0f;
-
-            if (lastMove.x > 0.5f)
+            if (time == 0)
             {
-                z = 180f;
+                bubble.SetActive(false);
+                etatBouclier = false;
             }
-
-            if (lastMove.x < -0.5f)
+            else
             {
-                z = 0f;
+                time -= 1;
             }
-
-            if (Mathf.Abs(lastMove.y) > 0.5f)
-            {
-                z = lastMove.y * (-90f);
-            }
-
-            Vector3 EulerRotation = new Vector3(0f, 0f, z);
-            Instantiate(fireballRock, myRigidBody.position, Quaternion.Euler(EulerRotation));
-            timerBoule = 300;
-            forme = "Mauvaise forme";
+        }
+        else
+        {
+            time = duréeBouclier;
         }
 
-        //Spell water :
-
-        if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.L))
-        {
-            float z = 0f;
-
-            if (lastMove.x > 0.5f)
-            {
-                z = 180f;
-            }
-
-            if (lastMove.x < -0.5f)
-            {
-                z = 0f;
-            }
-
-            if (Mathf.Abs(lastMove.y) > 0.5f)
-            {
-                z = lastMove.y * (-90f);
-            }
-
-            Vector3 EulerRotation = new Vector3(0f, 0f, z);
-            Instantiate(fireballWater, myRigidBody.position, Quaternion.Euler(EulerRotation));
-            timerBoule = 300;
-            forme = "Mauvaise forme";
-        }
-
-        //Spell air :
-
-        if (forme == "boule" && timerBoule == 0 || Input.GetKeyUp(KeyCode.M))
-        {
-            float z = 0f;
-
-            if (lastMove.x > 0.5f)
-            {
-                z = 180f;
-            }
-
-            if (lastMove.x < -0.5f)
-            {
-                z = 0f;
-            }
-
-            if (Mathf.Abs(lastMove.y) > 0.5f)
-            {
-                z = lastMove.y * (-90f);
-            }
-
-            Vector3 EulerRotation = new Vector3(0f, 0f, z);
-            Instantiate(fireballAir, myRigidBody.position, Quaternion.Euler(EulerRotation));
-            timerBoule = 300;
-            forme = "Mauvaise forme";
-        }
-
-
-
-
-        if (hurtEffectTimeCounter > 0.66f * hurtEffectTime )
-        {
-            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0f);
-        } else if (hurtEffectTimeCounter > 0.33f * hurtEffectTime)
-        {
-            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1f);
-        } else if (hurtEffectTimeCounter > 0f )
-        {
-            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0f);
-        } else
-        {
-            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1f);
-        }
-
-
-        hurtEffectTimeCounter -= Time.deltaTime;
-
-    }
-            }
-        */
-
-        
-        
 
 
         if (hurtEffectTimeCounter > 0.66f * hurtEffectTime )
