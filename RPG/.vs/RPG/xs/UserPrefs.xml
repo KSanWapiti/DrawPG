@@ -1,28 +1,16 @@
 ﻿<Properties StartupConfiguration="{0BE8E511-D506-A1D0-E67D-923A5ED26D39}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Quete 3/Script_enigmes_png.cs">
     <Files>
       <File FileName="Assets/Scripts/SpellController.cs" Line="36" Column="10" />
       <File FileName="Assets/Scripts/PlayerController/PlayerController.cs" Line="293" Column="14" />
+      <File FileName="Assets/Scripts/EnemyController/EnemyHealthManager.cs" Line="25" Column="74" />
+      <File FileName="Assets/Scripts/Quête 1/Script_PNG_un.cs" Line="53" Column="21" />
+      <File FileName="Assets/Scripts/Quete 3/Script_enigmes_png.cs" Line="26" Column="65" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="RPG" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="PlayerController" expanded="True">
-                  <Node name="PlayerController.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5721376f-486a-4060-89cc-b9f0eb15b2a2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f761012a-fc7a-4dbf-8fcc-fe51089a2b6b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
