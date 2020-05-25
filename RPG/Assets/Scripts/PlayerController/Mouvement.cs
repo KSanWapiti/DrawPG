@@ -6,13 +6,15 @@ using System.Collections.ObjectModel;
 
 public class Mouvement : MonoBehaviour
 {
+    //pour permettre une marge d'erreur, la position de la souris est contenue dans des carreaux. L'écran est découpé selon un quadrillage.
+    // Ainsi les variations correspondent au changement de carreau.
     public float tailleCarreauX;
     public float tailleCarreauY;
     public int positionXPrecedentNormee;
     public int positionYPrecedentNormee;
     public int positionXnormee;
     public int positionYnormee;
-    public GameObject quadrillage;
+
 
     
 
@@ -25,7 +27,7 @@ public class Mouvement : MonoBehaviour
             this.x = a;
             this.y = b;
         }
-        public bool equals(variations v)
+        public bool equals(variations v)    // On vérifie si la position actuelle est identique ou non à la position précédente.
         {
             if (this.x == v.x && this.y == v.y)
             {
@@ -41,14 +43,17 @@ public class Mouvement : MonoBehaviour
             print((x, y));
         }
     }
-
+    
+    // Les formes dessinées sont identifiées par des variations "haut" "bas" "gauche" "droite".
     variations haut = new variations(0, 1);
     variations bas = new variations(0, -1);
     variations gauche = new variations(-1, 0);
     variations droite = new variations(1, 0);
-    Collection<variations> formeDessinee = new Collection<variations>();
+    Collection<variations> formeDessinee = new Collection<variations>();    // collection de variations, on vérifiera si cette suite de variations correspond ou non aux suites de variations des sorts.
     Collection<Collection<variations>> formesIdentifiées = new Collection<Collection<variations>>();
-    Collection<string> formesDispo = new Collection<string>();
+    Collection<string> formesDispo = new Collection<string>(); // Collection de sorts
+    
+    // Un sort est identifié par une suite de variation haut bas gauche droite.
     Collection<variations> boule = new Collection<variations>();
     Collection<variations> bouclier1 = new Collection<variations>();
     Collection<variations> bouclier2 = new Collection<variations>();
@@ -96,9 +101,9 @@ void Start()
     {
         string dessin2 = "Mauvaise forme";
         //print(dessinEffectué);
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))    // Le tracé commence dès que le click Gauche est enfoncé et s'arrête quand le boutton est relaché.
         {
-            Vector3 mouseInScreen = Input.mousePosition;
+            Vector3 mouseInScreen = Input.mousePosition;    // Récupération de la position de la souris sous forme d'un vecteur à 3 dimensions.
             positionXPrecedentNormee = (int)Mathf.Floor(mouseInScreen.x / tailleCarreauX);
             positionYPrecedentNormee = (int)Mathf.Floor(mouseInScreen.y / tailleCarreauY);
         }
@@ -113,9 +118,8 @@ void Start()
             {
                 variations changement = new variations(positionXnormee-positionXPrecedentNormee,positionYnormee-positionYPrecedentNormee);
                 
-                /*formeDessinee.Add(changement);
-                changement.display(); if (changement.equals(haut))
-                */
+                // On ajoute les variations aux collections de variations.
+                
                 if (changement.equals(haut)){
                     print("haut");
                     formeDessinee.Add(haut);
@@ -137,24 +141,23 @@ void Start()
                 }
 
 
-                if (formeDessinee.Count>4)
+                if (formeDessinee.Count>4)  // Forme incorrect car nos formes sont de  4 variations.
                 {
                     formeDessinee = new Collection<variations>();
                 }
                 if ( formeDessinee.Count>3)
                 {
-                    //print("assez long");
-                    foreach (Collection<variations> formes in formesIdentifiées)
+
+                    foreach (Collection<variations> formes in formesIdentifiées)    // On teste si la collection correspond à une collection de sorts.
                     {
                         if (dessin2!="Mauvaise forme")
                         {
-                            //print("forme reconnue");
+
                             break;
                         }
-                        for (int i=0; i <= 3; i++)
+                        for (int i=0; i <= 3; i++)  // On teste variations par variatiosn
                         {
-                            /*print("formes[i]: "); formes[i].display();
-                            print("formeDessinee[i]: "); formeDessinee[i].display();*/
+
                             if (!(formes[i].equals(formeDessinee[i])))
                             {
                                 break;
@@ -177,7 +180,7 @@ void Start()
         }
         if (Input.GetMouseButtonUp(0))
         {
-            formeDessinee = new Collection<variations>();
+            formeDessinee = new Collection<variations>();   // On rénitialise pour pouvoir lancer un nouveau sort.
             dessinEffectué = "Mauvaise forme";
         }
     }
