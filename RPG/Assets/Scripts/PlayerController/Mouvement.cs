@@ -104,21 +104,24 @@ void Start()
         if (Input.GetMouseButtonDown(0))    // Le tracé commence dès que le click Gauche est enfoncé et s'arrête quand le boutton est relaché.
         {
             Vector3 mouseInScreen = Input.mousePosition;    // Récupération de la position de la souris sous forme d'un vecteur à 3 dimensions.
-            positionXPrecedentNormee = (int)Mathf.Floor(mouseInScreen.x / tailleCarreauX);
+            //on récupère le cadran initial dans lequel se trouve dans la souris, repéré grâce à son ordre dans les cadrans selon les x et les y.
+            positionXPrecedentNormee = (int)Mathf.Floor(mouseInScreen.x / tailleCarreauX); 
             positionYPrecedentNormee = (int)Mathf.Floor(mouseInScreen.y / tailleCarreauY);
         }
         if (Input.GetMouseButton(0))
         {
             tailleCarreauX =Screen.width/5;
             tailleCarreauY=Screen.height/5;
-            Vector3 mouseInScreen = Input.mousePosition;
-            positionXnormee = (int)Mathf.Floor(mouseInScreen.x / tailleCarreauX);
+            Vector3 mouseInScreen = Input.mousePosition; 
+            //on met à jour la position de la souris dans les cadrans à chaque image comme précédemment :
+            positionXnormee = (int)Mathf.Floor(mouseInScreen.x / tailleCarreauX); 
             positionYnormee = (int)Mathf.Floor(mouseInScreen.y / tailleCarreauY);
-            if (positionXPrecedentNormee != positionXnormee || positionYPrecedentNormee != positionYnormee)
+            if (positionXPrecedentNormee != positionXnormee || positionYPrecedentNormee != positionYnormee) //lorsque l'on remarque que la souris a changé de cadran,
             {
-                variations changement = new variations(positionXnormee-positionXPrecedentNormee,positionYnormee-positionYPrecedentNormee);
+                //le changement de cadran par la souris est défini ici:
+                variations changement = new variations(positionXnormee-positionXPrecedentNormee,positionYnormee-positionYPrecedentNormee); 
                 
-                // On ajoute les variations aux collections de variations.
+                // On ajoute ce changement à la collection de variations définissant la forme dessinée
                 
                 if (changement.equals(haut)){
                     print("haut");
@@ -140,31 +143,31 @@ void Start()
                     formeDessinee.Add(droite);
                 }
 
-
-                if (formeDessinee.Count>4)  // Forme incorrect car nos formes sont de  4 variations.
+                //on vérifie ici si la forme dessinée correspond à un sort lançable :
+                if (formeDessinee.Count>4)  // Forme incorrect car nos formes ont au plus 4 variations.
                 {
                     formeDessinee = new Collection<variations>();
                 }
                 if ( formeDessinee.Count>3)
                 {
 
-                    foreach (Collection<variations> formes in formesIdentifiées)    // On teste si la collection correspond à une collection de sorts.
+                    foreach (Collection<variations> formes in formesIdentifiées)    // On teste si la collection dessinée correspond à une collection de sorts.
                     {
-                        if (dessin2!="Mauvaise forme")
+                        if (dessin2!="Mauvaise forme") //si jamais un sort a été reconnu mais qu'il reste d'autre sorts à vérifier...
                         {
 
-                            break;
+                            break; //...on sort de la boucle
                         }
-                        for (int i=0; i <= 3; i++)  // On teste variations par variatiosn
+                        for (int i=0; i <= 3; i++)  // On compare la forme dessinée à un sort en comparant les variations une par une.
                         {
 
                             if (!(formes[i].equals(formeDessinee[i])))
                             {
-                                break;
+                                break;// si une des variations ne correspond pas au sort regardé, on passe directement au sort suivant.
                             }
                             if (i == 3)
                             {
-                                dessinEffectué = formesDispo[formesIdentifiées.IndexOf(formes)];
+                                dessinEffectué = formesDispo[formesIdentifiées.IndexOf(formes)]; //si la forme dessinée correspond à une forme prédéfinie, on l'enregistre pour le renvoyer avec la fonction dessin()
                                 dessin2 = dessinEffectué;
                             }
 
@@ -178,10 +181,10 @@ void Start()
                 positionYPrecedentNormee=positionYnormee;
             }
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0)) //lorsque le bouton gauche de la souris est relaché :
         {
             formeDessinee = new Collection<variations>();   // On rénitialise pour pouvoir lancer un nouveau sort.
-            dessinEffectué = "Mauvaise forme";
+            dessinEffectué = "Mauvaise forme"; //on réinitialise la valeur de la variable traduisant la forme dessinée.
         }
     }
 }
