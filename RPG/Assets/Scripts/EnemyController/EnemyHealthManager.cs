@@ -22,6 +22,8 @@ public class EnemyHealthManager : MonoBehaviour
         {
             Destroy(gameObject);
             thePlayer.addXp(xpToAdd);
+            GameObject.FindObjectOfType<Script_PNG_2>().killed_mobs += 1;
+
         }
     }
 
